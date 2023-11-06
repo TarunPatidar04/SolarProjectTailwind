@@ -32,12 +32,12 @@ export default function FirstPage() {
         </div>
       </div>
 
-      <div className="container  ml-[370px] xl2:ml-[430px] s:max-w-[800px] mb-24 ">
+      <div className="container  ml-[370px] xl2:ml-[430px] s:max-w-[800px] mb-24  ">
         <div className="content xl2:max-w-[980px] s:max-w-[800px] ">
           <p className="font-semibold text-4xl pt-5 pl-4">
             All About Solar Power
           </p>
-          <p className="pl-4 pt-6">
+          <p className="pl-4 pt-6 ">
             Solar energy is a type of clean energy that comes from the sun. It
             is renewable and abundant, which means there is plenty of it
             available. Using solar energy has a lot of advantages, such as

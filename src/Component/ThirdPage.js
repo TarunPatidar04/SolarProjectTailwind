@@ -14,7 +14,7 @@ import Thinpanel from "../Component/Img/Thinpanel.png";
 
 export default function ThirdPage() {
   return (
-    <div className="max-w-[1440px] min-w-[1200px] container flex mb-24">
+    <div className="max-w-[1440px] min-w-[1200px] container flex mb-24 ">
       <div className="space-y-5 font-semibold text-left text-sm text-white mt-[120px] cursor-pointer ">
         <div className="sidebar bg-[#235688] justify-center space-y-3 pl-9 top-0 pt-14 h-[100%] w-[350px] bg-fixed fixed">
           <p className="hover:text-slate-300">All About Solar Power</p>
@@ -37,13 +37,13 @@ export default function ThirdPage() {
         </div>
       </div>
 
-      <div className="containerxl2:ml-[430px] s:max-w-[800px]  ml-[370px] ">
+      <div className="container  s:max-w-[1000px]  ml-[370px] ">
         <div className="content xl2:max-w-[980px] s:max-w-[800px]    ">
           <p className="font-semibold text-4xl pt-5 pl-4">
             Exploring Different Types of Solar Panels
           </p>
 
-          <p className="pl-4 pt-6">
+          <p className="pl-4 pt-6 ">
             If you're interested in using solar energy, there are several
             different types of solar panels to choose from. Each type has its
             own special features and advantages. Let's explore the most commonly
