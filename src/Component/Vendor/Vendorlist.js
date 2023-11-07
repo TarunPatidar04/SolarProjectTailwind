@@ -42,141 +42,175 @@ const Vendorlist = () => {
           <button className={styles.loginButton}>Login</button>
         </div>
       </div>
-      <div className={styles.rightPanel}>
+      <div className="">
         <div className={styles.navbar}>
           <img src={profile} alt="Profile" className={styles.profile} />
           profile Picture
           <img src={help} alt="help" className={styles.help} />
         </div>
-        <div className={styles.grayBackground}>
-          <div className=" ">
-            <table class="table-fixed border-collapse border border-slate-400 border-spacing-14 min-w-full">
-              <caption class="caption-top">
-                <tr className="border border-slate-300 ">
 
-                  <th className="px-6 py-3 text-left">
-                    <button class="bg-blue-500 hover:bg-white  hover:text-blue-900 text-white font-bold py-1 px-3">
-                      Active
-                    </button>
-                  </th>
+        <div className="">
+          <div className="m-10  ">
+            <div className="m-6  flex  justify-center">
+              <button class="bg-blue-300 text-left hover:bg-white mr-2 hover:text-bluee text-white font-bold py-1 px-3">
+                Active
+              </button>
 
-                  <th className="px-6 py-3 text-left">
-                    <button class="bg-blue-500 hover:bg-white  hover:text-blue-900 text-white font-bold py-1 px-3">
-                      Request
-                    </button>
-                  </th>
+              <button class="bg-blue-300 hover:bg-white mr-2  hover:text-bluee text-white font-bold py-1 px-3">
+                Request
+              </button>
 
-                  <th className="px-6 py-3 text-left"> 
-                    <button class="bg-blue-500 hover:bg-white  hover:text-blue-900 text-white font-bold py-1 px-3">
-                      Reject
-                    </button>
-                  </th>
+              <button class="bg-blue-300 hover:bg-white  hover:text-bluee text-white font-bold py-1 px-3">
+                Reject
+              </button>
+            </div>
 
-                </tr>
-              </caption>
+            <hr className="h-px bg-gray-200 border-[1px] dark:bg-gray-900" />
 
-              <thead>
-                <tr className="border border-slate-300 ">
-                  <th className="px-6 py-3 text-left"> Company </th>
-                  <th className="px-6 py-3 text-left">Shop Name</th>
-                  <th className="px-6 py-3 text-left">Rating</th>
-                  <th className="px-6 py-3 text-left">Contractor ID</th>
-                  <th className="px-6 py-3 text-left">E-mail ID</th>
-                  <th className="px-6 py-3 text-left">Action</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border border-slate-300">
-                  <td className="px-6 py-4">
-                    <img src={companylogo} alt="" className="max-w-[50px]" />
-                  </td>
-                  <td className="px-6 py-4">Shanti Electricals System</td>
-                  <td className="px-6 py-4">4.5</td>
-                  <td className="px-6 py-4">RFTPCTR933</td>
-                  <td className="px-6 py-4">shantitechno@yahoo.com</td>
-                  <td className="px-6 py-4">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 ">
-                      View
-                    </button>
-                  </td>
-                </tr>
+            <ul className="flex font-bold   min-w-full whitespace-nowrap  text-bluee max-w-lg  ">
+              <li className="pl-5 px-12 py-4">Company</li>
+              <li className="pl-5  px-40 py-4">Shop Name</li>
+              <li className="pl-10  px-12 py-4">Rating</li>
+              <li className="pl-8  px-9 py-4">Contractor ID</li>
+              <li className="pl-16 px-52 py-4">E-mail ID</li>
+              <li className="pl-8  px-0 py-4">Action</li>
+            </ul>
 
-                <tr className="border border-slate-300">
-                  <td className="px-6 py-4">
-                    <img src={companylogo} alt="" className="max-w-[50px]" />
-                  </td>
-                  <td className="px-6 py-4">Shanti Electricals System</td>
-                  <td className="px-6 py-4">4.5</td>
-                  <td className="px-6 py-4">RFTPCTR933</td>
-                  <td className="px-6 py-4">shantitechno@yahoo.com</td>
-                  <td className="px-6 py-4">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 ">
-                      View
-                    </button>
-                  </td>
-                </tr>
+            <hr className="h-px bg-gray-200 border-[1px] dark:bg-gray-900" />
 
-                <tr className="border border-slate-300">
-                  <td className="px-6 py-4">
-                    <img src={companylogo} alt="" className="max-w-[50px]" />
-                  </td>
-                  <td className="px-6 py-4">Shanti Electricals System</td>
-                  <td className="px-6 py-4">4.5</td>
-                  <td className="px-6 py-4">RFTPCTR933</td>
-                  <td className="px-6 py-4">shantitechno@yahoo.com</td>
-                  <td className="px-6 py-4">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 ">
-                      View
-                    </button>
-                  </td>
-                </tr>
+            <ul className="flex min-w-full  overflow-hidden list-inside">
+              <li className="pl-5 px-6 py-4">
+                <img src={companylogo} alt="" className="max-w-[50px]" />
+              </li>
+              <li className="pl-20 px-6 py-4   whitespace-nowrap text-ellipsis overflow-hidden max-w-[300px]">
+                Shanti Electricals System
+              </li>
+              <li className="pl-20 px-6 py-4">4.5</li>
+              <li className="pl-20 px-6 py-4 text-iid">RFTPCTR933</li>
+              <li className="pl-20 px-6 py-4">shantitechno@yahoo.com</li>
+              <li className="pl-20 px-6 py-4">
+                <button className="bg-bluee hover:bg-bluee text-white font-bold py-1 px-3">
+                  View
+                </button>
+              </li>
+            </ul>
 
-                <tr className="border border-slate-300">
-                  <td className="px-6 py-4">
-                    <img src={companylogo} alt="" className="max-w-[50px]" />
-                  </td>
-                  <td className="px-6 py-4">Shanti Electricals System</td>
-                  <td className="px-6 py-4">4.5</td>
-                  <td className="px-6 py-4">RFTPCTR933</td>
-                  <td className="px-6 py-4">shantitechno@yahoo.com</td>
-                  <td className="px-6 py-4">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 ">
-                      View
-                    </button>
-                  </td>
-                </tr>
+            <hr className="h-px bg-gray-200 border-[1px] dark:bg-gray-900" />
 
-                <tr className="border border-slate-300">
-                  <td className="px-6 py-4">
-                    <img src={companylogo} alt="" className="max-w-[50px]" />
-                  </td>
-                  <td className="px-6 py-4">Shanti Electricals System</td>
-                  <td className="px-6 py-4">4.5</td>
-                  <td className="px-6 py-4">RFTPCTR933</td>
-                  <td className="px-6 py-4">shantitechno@yahoo.com</td>
-                  <td className="px-6 py-4">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 ">
-                      View
-                    </button>
-                  </td>
-                </tr>
+            <ul className="flex min-w-full  overflow-hidden list-inside">
+              <li className="pl-5 px-6 py-4">
+                <img src={companylogo} alt="" className="max-w-[50px]" />
+              </li>
+              <li className="pl-20 px-6 py-4   whitespace-nowrap text-ellipsis overflow-hidden max-w-[300px]">
+                Shanti Electricals System
+              </li>
+              <li className="pl-20 px-6 py-4">4.5</li>
+              <li className="pl-20 px-6 py-4 text-iid">RFTPCTR933</li>
+              <li className="pl-20 px-6 py-4">shantitechno@yahoo.com</li>
+              <li className="pl-20 px-6 py-4">
+                <button className="bg-bluee hover:bg-bluee text-white font-bold py-1 px-3">
+                  View
+                </button>
+              </li>
+            </ul>
 
-                <tr className="border border-slate-300">
-                  <td className="px-6 py-4">
-                    <img src={companylogo} alt="" className="max-w-[50px]" />
-                  </td>
-                  <td className="px-6 py-4">Shanti Electricals System</td>
-                  <td className="px-6 py-4">4.5</td>
-                  <td className="px-6 py-4">RFTPCTR933</td>
-                  <td className="px-6 py-4">shantitechno@yahoo.com</td>
-                  <td className="px-6 py-4">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 ">
-                      View
-                    </button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+
+            <hr className="h-px bg-gray-200 border-[1px] dark:bg-gray-900" />
+
+            <ul className="flex min-w-full  overflow-hidden list-inside">
+              <li className="pl-5 px-6 py-4">
+                <img src={companylogo} alt="" className="max-w-[50px]" />
+              </li>
+              <li className="pl-20 px-6 py-4   whitespace-nowrap text-ellipsis overflow-hidden max-w-[300px]">
+                Shanti Electricals System
+              </li>
+              <li className="pl-20 px-6 py-4">4.5</li>
+              <li className="pl-20 px-6 py-4 text-iid">RFTPCTR933</li>
+              <li className="pl-20 px-6 py-4">shantitechno@yahoo.com</li>
+              <li className="pl-20 px-6 py-4">
+                <button className="bg-bluee hover:bg-bluee text-white font-bold py-1 px-3">
+                  View
+                </button>
+              </li>
+            </ul>
+
+            <hr className="h-px bg-gray-200 border-[1px] dark:bg-gray-900" />
+
+            <ul className="flex min-w-full  overflow-hidden list-inside">
+              <li className="pl-5 px-6 py-4">
+                <img src={companylogo} alt="" className="max-w-[50px]" />
+              </li>
+              <li className="pl-20 px-6 py-4   whitespace-nowrap text-ellipsis overflow-hidden max-w-[300px]">
+                Shanti Electricals System
+              </li>
+              <li className="pl-20 px-6 py-4">4.5</li>
+              <li className="pl-20 px-6 py-4 text-iid">RFTPCTR933</li>
+              <li className="pl-20 px-6 py-4">shantitechno@yahoo.com</li>
+              <li className="pl-20 px-6 py-4">
+                <button className="bg-bluee hover:bg-bluee text-white font-bold py-1 px-3">
+                  View
+                </button>
+              </li>
+            </ul>
+
+            <hr className="h-px bg-gray-200 border-[1px] dark:bg-gray-900" />
+
+            <ul className="flex min-w-full  overflow-hidden list-inside">
+              <li className="pl-5 px-6 py-4">
+                <img src={companylogo} alt="" className="max-w-[50px]" />
+              </li>
+              <li className="pl-20 px-6 py-4   whitespace-nowrap text-ellipsis overflow-hidden max-w-[300px]">
+                Shanti Electricals System
+              </li>
+              <li className="pl-20 px-6 py-4">4.5</li>
+              <li className="pl-20 px-6 py-4 text-iid">RFTPCTR933</li>
+              <li className="pl-20 px-6 py-4">shantitechno@yahoo.com</li>
+              <li className="pl-20 px-6 py-4">
+                <button className="bg-bluee hover:bg-bluee text-white font-bold py-1 px-3">
+                  View
+                </button>
+              </li>
+            </ul>
+
+            <hr className="h-px bg-gray-200 border-[1px] dark:bg-gray-900" />
+
+            <ul className="flex min-w-full  overflow-hidden list-inside">
+              <li className="pl-5 px-6 py-4">
+                <img src={companylogo} alt="" className="max-w-[50px]" />
+              </li>
+              <li className="pl-20 px-6 py-4   whitespace-nowrap text-ellipsis overflow-hidden max-w-[300px]">
+                Shanti Electricals System
+              </li>
+              <li className="pl-20 px-6 py-4">4.5</li>
+              <li className="pl-20 px-6 py-4 text-iid">RFTPCTR933</li>
+              <li className="pl-20 px-6 py-4">shantitechno@yahoo.com</li>
+              <li className="pl-20 px-6 py-4">
+                <button className="bg-bluee hover:bg-bluee text-white font-bold py-1 px-3">
+                  View
+                </button>
+              </li>
+            </ul>
+
+            <hr className="h-px bg-gray-200 border-[1px] dark:bg-gray-900" />
+
+            <ul className="flex min-w-full  overflow-hidden list-inside">
+              <li className="pl-5 px-6 py-4">
+                <img src={companylogo} alt="" className="max-w-[50px]" />
+              </li>
+              <li className="pl-20 px-6 py-4   whitespace-nowrap text-ellipsis overflow-hidden max-w-[300px]">
+                Shanti Electricals System
+              </li>
+              <li className="pl-20 px-6 py-4">4.5</li>
+              <li className="pl-20 px-6 py-4 text-iid">RFTPCTR933</li>
+              <li className="pl-20 px-6 py-4">shantitechno@yahoo.com</li>
+              <li className="pl-20 px-6 py-4">
+                <button className="bg-bluee hover:bg-bluee text-white font-bold py-1 px-3">
+                  View
+                </button>
+              </li>
+            </ul>
+
+            <hr className="h-px bg-gray-200 border-[1px] dark:bg-gray-900" />
           </div>
         </div>
       </div>

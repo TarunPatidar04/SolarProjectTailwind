@@ -15,7 +15,12 @@ module.exports = {
       '2xl': '1536px',
       '2lg':'2560px'
     },
-    extend: {},
+    extend: {
+      colors:{
+            bluee:"rgba(30, 60, 103, 1)",
+            iid:"rgba(128, 144, 161, 1)"
+      },
+    },
   },
   plugins: [],
 }
