@@ -1,5 +1,6 @@
 
 import './App.css';
+import ProductDetails from './Component/ProductDetails/ProductDetails';
 import Vendorlist from './Component/Vendor/Vendorlist';
 // import FirstPage from './Component/FirstPage';
 // import SecondPage from './Component/SecondPage.js';
@@ -11,7 +12,8 @@ function App() {
       {/* <FirstPage/> */}
       {/* <SecondPage/> */}
       {/* <ThirdPage/> */}
-      <Vendorlist/>
+      {/* <Vendorlist/> */}
+      <ProductDetails/>
     </div>
   );
 }
