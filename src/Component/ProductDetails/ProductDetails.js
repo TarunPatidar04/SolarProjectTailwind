@@ -51,317 +51,420 @@ const ProductDetails = () => {
         </div>
 
         <div className={styles.grayBackground}>
-
           <div className="Details">
+            <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19">
+              <div class="text-center shadow-lg rounded">
+                <div class="overflow-hidden">
+                  <img src={mono} alt="" className="" />
+                </div>
+
+                <div className="text-left m-3">
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold ">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
+                </div>
+              </div>
+
+              <div class="text-center shadow-lg rounded">
+                <div class="overflow-hidden">
+                  <img src={mono} alt="" className="" />
+                </div>
+                <div className="text-left m-3">
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
+                </div>
+              </div>
+
+              <div class="text-center shadow-lg rounded">
+                <div class="overflow-hidden">
+                  <img src={mono} alt="" className="" />
+                </div>
+                <div className="text-left m-3">
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
+                </div>
+              </div>
+
+              <div class="text-center shadow-lg rounded">
+                <div class="overflow-hidden">
+                  <img src={mono} alt="" className="" />
+                </div>
+                <div className="text-left m-3">
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
+                </div>
+              </div>
+            </div>
 
             <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19">
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                    alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
 
                 <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
 
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                    alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
 
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                   src={mono}
-                    alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
 
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                     alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
-             <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                <div className="text-left m-3">
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
             </div>
-          
-
-
-
 
             <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19">
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                    alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
 
                 <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
 
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                    alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
 
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                   src={mono}
-                    alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
 
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                     alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
-             <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                <div className="text-left m-3">
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
             </div>
-          
-
-
 
             <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19">
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                    alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
 
                 <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
 
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                    alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
 
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                   src={mono}
-                    alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
 
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                     alt=""
-                    className=""
-                  />
+                  <img src={mono} alt="" className="" />
                 </div>
-             <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
+                <div className="text-left m-3">
+                  <p class="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p class="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
                 </div>
               </div>
             </div>
-          
-
-
-
-
-            <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19">
-              <div class="text-center shadow-lg rounded">
-                <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                    alt=""
-                    className=""
-                  />
-                </div>
-
-                <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
-                </div>
-              </div>
-
-              <div class="text-center shadow-lg rounded">
-                <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                    alt=""
-                    className=""
-                  />
-                </div>
-                <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
-                </div>
-              </div>
-
-              <div class="text-center shadow-lg rounded">
-                <div class="overflow-hidden">
-                  <img
-                   src={mono}
-                    alt=""
-                    className=""
-                  />
-                </div>
-                <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
-                </div>
-              </div>
-
-              <div class="text-center shadow-lg rounded">
-                <div class="overflow-hidden">
-                  <img
-                    src={mono}
-                     alt=""
-                    className=""
-                  />
-                </div>
-             <div className="text-left m-3">
-                <p class="py-2 font-bold text-[20px] ">Monocrystalline Solar Panels (Mono-SI)</p>
-                <p class="py-2 text-[13px] ">Find the right products that fits your budget and needs.</p>
-                <img  src={star} alt="" className="max-w-[100px] "/>
-                <span className="font-bold">₹29,900</span>
-                <span className="text-[13px]">(GST inclusive price)</span>
-                </div>
-              </div>
-            </div>
-          
-
-
-
-
-
-
-
-
-
-
-
           </div>
-        
         </div>
       </div>
     </div>
