@@ -53,28 +53,31 @@ const ProductDetails = () => {
 
         <div className={styles.grayBackground}>
           <div className="vendordetails">
-
-<div>
-
-
-
-</div>
+            <div></div>
 
             <div className="flex justify-start  ">
-            <button type="button" class="text-white bg-bt  hover:bg-bt  focus:outline-none    font-medium  text-sm p-8 text-center inline-flex items-center mr-2 ">
-            <span className="text-red-400 text-2xl font-bold">&larr;</span>
- 
-  </button>
-              <div className="p-10 ml-20 text-bluue font-bold">Vendor Details</div>
+              <button
+                type="button"
+                class="text-white bg-bt  hover:bg-bt  focus:outline-none    font-medium  text-sm p-8 text-center inline-flex items-center mr-2 "
+              >
+                <span className="text-red-400 text-2xl font-bold">&larr;</span>
+              </button>
+              <div className="p-10 ml-20 text-bluue font-bold">
+                Vendor Details
+              </div>
             </div>
 
             <hr className="h-px bg-gray-200 border-[1px] dark:bg-gray-900" />
 
             {/* <div className=" m-5 grid  grid-cols-3 "> */}
             {/* <div className="max-w-[1320px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19"> */}
-<div className="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
+            <div className="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
               <div className="   -mt-5  m-10   md:-mt-5  md:m-10">
-                <img src={campany} alt="" className="max-w-[250px]  md:max-w-[150px]  sm:max-w-[100px] m:max-w-[60px] s:max-w-[50px]" />
+                <img
+                  src={campany}
+                  alt=""
+                  className="max-w-[250px]  md:max-w-[150px]  sm:max-w-[100px] m:max-w-[60px] s:max-w-[50px]"
+                />
               </div>
 
               <div className="-mt-5  -ml-16  md:-mt-5 md:-ml-1  sm:-ml-1   m:-ml-3   s:-ml-2   ">
@@ -114,187 +117,203 @@ const ProductDetails = () => {
 
             <hr className="h-px bg-gray-200 border-[1px] dark:bg-gray-900" />
 
-
-
             <div className="m-14">
-
               <h1 className="font-bold">Likes</h1>
 
               <div className="Likesss mt-5 flex ">
-                <img src={star} className="max-w-[100px] h-5 " alt=""/>
+                <img src={star} className="max-w-[100px] h-5 " alt="" />
                 <span className="ml-2 font-bold ">4 out of 5</span>
                 <span className="ml-20 font-bold">200021 global likes</span>
               </div>
-  
-     <div className=" m-5 mb-20 ">
 
+              <div className=" m-5 mb-20 ">
+                <div className="flex items-center mt-4">
+                  <a
+                    href="/"
+                    className="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                  >
+                    5 star
+                  </a>
 
-     <div className="flex items-center mt-4">
-    <a href="/" className="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline">5 star</a>
-
-    <div className="w-[400px] h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
-        <div className="h-5  bg-ornge  max-w-[60%]"></div>
-    </div>
-    <span className="text-sm font-medium text-gray-500 dark:text-gray-400">60%</span>
-</div>
-<div className="flex items-center mt-4">
-    <a href="/" class="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline">4 star</a>
-    <div className="w-[400px] h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
-        <div className="h-5  bg-ornge max-w-[20%]"></div>
-    </div>
-    <span className="text-sm font-medium text-gray-500 dark:text-gray-400">20%</span>
-</div>
-<div className="flex items-center mt-4">
-    <a href="/" class="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline">3 star</a>
-    <div className="w-[400px] h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
-        <div className="h-5  bg-ornge max-w-[70%]"></div>
-    </div>
-    <span className="text-sm font-medium text-gray-500 dark:text-gray-400">70%</span>
-</div>
-<div className="flex items-center mt-4">
-    <a href="/" className="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline">2 star</a>
-    <div className="w-[400px] h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
-        <div className="h-5  bg-ornge max-w-[30%]" ></div>
-    </div>
-    <span className="text-sm font-medium text-gray-500 dark:text-gray-400">30%</span>
-</div>
-<div className="flex items-center mt-4">
-    <a href="/" className="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline">1 star</a>
-    <div className="w-[400px] h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
-        <div className="h-5 bg-ornge max-w-[9%]" ></div>
-    </div>
-    <span className="text-sm font-medium text-gray-500 dark:text-gray-400">9%</span>
-</div>
-
- </div>
-
-
-
-<div className="product details mb-28">
-
-<div className="m-7  flex">
-  <div className="flex-1 text-pd font-bold">ProductDetails</div>
-  <div className="text-bluue font-bold">See All</div>
-</div>
-
-
-<div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
-              <div class="text-center shadow-lg rounded">
-                <div class="overflow-hidden">
-                  <img src={mono} alt="" className="" />
-                </div>
-
-                <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
-                    Monocrystalline Solar Panels (Mono-SI)
-                  </p>
-                  <p class="py-2 text-[13px] ">
-                    Find the right products that fits your budget and needs.
-                  </p>
-                  <div className="flex">
-                    {" "}
-                    <img
-                      src={star}
-                      alt=""
-                      className="max-w-[100px] mb-2 "
-                    />{" "}
-                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  <div className="w-[400px] h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
+                    <div className="h-5  bg-ornge  max-w-[60%]"></div>
                   </div>
-                  <span className="font-bold ">₹29,900</span>
-                  <span className="text-[13px]">(GST inclusive price)</span>
+                  <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                    60%
+                  </span>
+                </div>
+                <div className="flex items-center mt-4">
+                  <a
+                    href="/"
+                    class="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                  >
+                    4 star
+                  </a>
+                  <div className="w-[400px] h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
+                    <div className="h-5  bg-ornge max-w-[20%]"></div>
+                  </div>
+                  <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                    20%
+                  </span>
+                </div>
+                <div className="flex items-center mt-4">
+                  <a
+                    href="/"
+                    class="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                  >
+                    3 star
+                  </a>
+                  <div className="w-[400px] h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
+                    <div className="h-5  bg-ornge max-w-[70%]"></div>
+                  </div>
+                  <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                    70%
+                  </span>
+                </div>
+                <div className="flex items-center mt-4">
+                  <a
+                    href="/"
+                    className="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                  >
+                    2 star
+                  </a>
+                  <div className="w-[400px] h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
+                    <div className="h-5  bg-ornge max-w-[30%]"></div>
+                  </div>
+                  <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                    30%
+                  </span>
+                </div>
+                <div className="flex items-center mt-4">
+                  <a
+                    href="/"
+                    className="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                  >
+                    1 star
+                  </a>
+                  <div className="w-[400px] h-5 mx-4 bg-gray-200 rounded dark:bg-gray-700">
+                    <div className="h-5 bg-ornge max-w-[9%]"></div>
+                  </div>
+                  <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                    9%
+                  </span>
                 </div>
               </div>
 
-              <div class="text-center shadow-lg rounded">
-                <div class="overflow-hidden">
-                  <img src={mono} alt="" className="" />
+              <div className="product details mb-28">
+                <div className="m-7  flex">
+                  <div className="flex-1 text-pd font-bold">ProductDetails</div>
+                  <div className="text-bluue font-bold">See All</div>
                 </div>
-                <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
-                    Monocrystalline Solar Panels (Mono-SI)
-                  </p>
-                  <p class="py-2 text-[13px] ">
-                    Find the right products that fits your budget and needs.
-                  </p>
-                  <div className="flex">
-                    {" "}
-                    <img
-                      src={star}
-                      alt=""
-                      className="max-w-[100px] mb-2 "
-                    />{" "}
-                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
-                  </div>
-                  <span className="font-bold">₹29,900</span>
-                  <span className="text-[13px]">(GST inclusive price)</span>
-                </div>
-              </div>
 
-              <div class="text-center shadow-lg rounded">
-                <div class="overflow-hidden">
-                  <img src={mono} alt="" className="" />
-                </div>
-                <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
-                    Monocrystalline Solar Panels (Mono-SI)
-                  </p>
-                  <p class="py-2 text-[13px] ">
-                    Find the right products that fits your budget and needs.
-                  </p>
-                  <div className="flex">
-                    {" "}
-                    <img
-                      src={star}
-                      alt=""
-                      className="max-w-[100px] mb-2 "
-                    />{" "}
-                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
-                  </div>
-                  <span className="font-bold">₹29,900</span>
-                  <span className="text-[13px]">(GST inclusive price)</span>
-                </div>
-              </div>
+                <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
+                  <div class="text-center shadow-lg rounded">
+                    <div class="overflow-hidden">
+                      <img src={mono} alt="" className="" />
+                    </div>
 
-              <div class="text-center shadow-lg rounded">
-                <div class="overflow-hidden">
-                  <img src={mono} alt="" className="" />
-                </div>
-                <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
-                    Monocrystalline Solar Panels (Mono-SI)
-                  </p>
-                  <p class="py-2 text-[13px] ">
-                    Find the right products that fits your budget and needs.
-                  </p>
-                  <div className="flex">
-                    {" "}
-                    <img
-                      src={star}
-                      alt=""
-                      className="max-w-[100px] mb-2 "
-                    />{" "}
-                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                    <div className="text-left m-3">
+                      <p class="py-2 font-bold text-[20px] ">
+                        Monocrystalline Solar Panels (Mono-SI)
+                      </p>
+                      <p class="py-2 text-[13px] ">
+                        Find the right products that fits your budget and needs.
+                      </p>
+                      <div className="flex">
+                        {" "}
+                        <img
+                          src={star}
+                          alt=""
+                          className="max-w-[100px] mb-2 "
+                        />{" "}
+                        <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                      </div>
+                      <span className="font-bold ">₹29,900</span>
+                      <span className="text-[13px]">(GST inclusive price)</span>
+                    </div>
                   </div>
 
-                  <span className="font-bold">₹29,900</span>
-                  <span className="text-[13px]">(GST inclusive price)</span>
+                  <div class="text-center shadow-lg rounded">
+                    <div class="overflow-hidden">
+                      <img src={mono} alt="" className="" />
+                    </div>
+                    <div className="text-left m-3">
+                      <p class="py-2 font-bold text-[20px] ">
+                        Monocrystalline Solar Panels (Mono-SI)
+                      </p>
+                      <p class="py-2 text-[13px] ">
+                        Find the right products that fits your budget and needs.
+                      </p>
+                      <div className="flex">
+                        {" "}
+                        <img
+                          src={star}
+                          alt=""
+                          className="max-w-[100px] mb-2 "
+                        />{" "}
+                        <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                      </div>
+                      <span className="font-bold">₹29,900</span>
+                      <span className="text-[13px]">(GST inclusive price)</span>
+                    </div>
+                  </div>
+
+                  <div class="text-center shadow-lg rounded">
+                    <div class="overflow-hidden">
+                      <img src={mono} alt="" className="" />
+                    </div>
+                    <div className="text-left m-3">
+                      <p class="py-2 font-bold text-[20px] ">
+                        Monocrystalline Solar Panels (Mono-SI)
+                      </p>
+                      <p class="py-2 text-[13px] ">
+                        Find the right products that fits your budget and needs.
+                      </p>
+                      <div className="flex">
+                        {" "}
+                        <img
+                          src={star}
+                          alt=""
+                          className="max-w-[100px] mb-2 "
+                        />{" "}
+                        <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                      </div>
+                      <span className="font-bold">₹29,900</span>
+                      <span className="text-[13px]">(GST inclusive price)</span>
+                    </div>
+                  </div>
+
+                  <div class="text-center shadow-lg rounded">
+                    <div class="overflow-hidden">
+                      <img src={mono} alt="" className="" />
+                    </div>
+                    <div className="text-left m-3">
+                      <p class="py-2 font-bold text-[20px] ">
+                        Monocrystalline Solar Panels (Mono-SI)
+                      </p>
+                      <p class="py-2 text-[13px] ">
+                        Find the right products that fits your budget and needs.
+                      </p>
+                      <div className="flex">
+                        {" "}
+                        <img
+                          src={star}
+                          alt=""
+                          className="max-w-[100px] mb-2 "
+                        />{" "}
+                        <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                      </div>
+
+                      <span className="font-bold">₹29,900</span>
+                      <span className="text-[13px]">(GST inclusive price)</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-
-</div>
-
-
-
-
           </div>
-
-
-
         </div>
       </div>
-    </div>
     </div>
   );
 };
