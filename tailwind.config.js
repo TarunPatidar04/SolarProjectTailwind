@@ -18,7 +18,11 @@ module.exports = {
     extend: {
       colors:{
             bluee:"rgba(30, 60, 103, 1)",
-            iid:"rgba(128, 144, 161, 1)"
+            iid:"rgba(128, 144, 161, 1)",
+            pd:"rgba(0, 0, 0, 0.6)",
+            bluue:"rgba(35, 86, 136, 1)",
+            ornge:"rgba(255, 164, 28, 1)",
+            bt:" rgba(223, 232, 239, 1)"
       },
     },
   },

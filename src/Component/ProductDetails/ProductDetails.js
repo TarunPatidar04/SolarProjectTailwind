@@ -52,6 +52,7 @@ const ProductDetails = () => {
 
         <div className={styles.grayBackground}>
           <div className="Details">
+          
             <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19">
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
