@@ -32,8 +32,8 @@ export default function FirstPage() {
         </div>
       </div>
 
-      <div className="container md:ml-[380px] s:max-w-[80%px] md:mb-24 s:mb-12 ">
-        <div className="content xl2:max-w-[980px] s:max-w-[80%px] ">
+      <div className="container md:ml-[380px]  md:mb-24 s:mb-12 ">
+        <div className="content xl2:max-w-[980px]  ">
           <p className="font-semibold md:text-4xl md:pt-5 md:pl-4 s:text-lg s:pt-3 s:pl-2">
             All About Solar Power
           </p>

@@ -14,70 +14,67 @@ import Thinpanel from "../Component/Img/Thinpanel.png";
 
 export default function ThirdPage() {
   return (
-    <div className="max-w-[1440px] min-w-[1200px] container flex mb-24 ">
-      <div className="space-y-5 font-semibold text-left text-sm text-white mt-[120px] cursor-pointer ">
-        <div className="sidebar bg-[#235688] justify-center space-y-3 pl-9 top-0 pt-14 h-[100%] w-[350px] bg-fixed fixed">
-          <p className="hover:text-slate-300">All About Solar Power</p>
-          <p className="hover:text-slate-300">Solar Panel Installation</p>
-          <p className="hover:text-slate-300">
-            Exploring Different Types of Solar Panels
-          </p>
-          <p className="hover:text-slate-300">
-            Calculating the Budget for Solar Installation
-          </p>
-          <p className="hover:text-slate-300">
-            A Guide to Finding the Right Solar Installer
-          </p>
-          <p className="hover:text-slate-300">
-            Steps to Get Started with Solar Energy
-          </p>
-          <p className="hover:text-slate-300">
-            In Which Category Dom You Belong to?
-          </p>
-        </div>
+    <div className="   container flex">
+    <div className="space-y-5 font-semibold text-left  hidden md:block md:text-sm text-white mt-[120px] cursor-pointer ">
+      <div className="sidebar bg-[#235688] justify-center space-y-3 pl-9 top-0 pt-14 h-[100%] w-[350px] bg-fixed fixed">
+        <p className="hover:text-slate-300">All About Solar Power</p>
+        <p className="hover:text-slate-300">Solar Panel Installation</p>
+        <p className="hover:text-slate-300">
+          Exploring Different Types of Solar Panels
+        </p>
+        <p className="hover:text-slate-300">
+          Calculating the Budget for Solar Installation
+        </p>
+        <p className="hover:text-slate-300">
+          A Guide to Finding the Right Solar Installer
+        </p>
+        <p className="hover:text-slate-300">
+          Steps to Get Started with Solar Energy
+        </p>
+        <p className="hover:text-slate-300">
+          In Which Category Dom You Belong to?
+        </p>
       </div>
+    </div>
 
-      <div className="container  s:max-w-[1000px]  ml-[370px] ">
-        <div className="content xl2:max-w-[980px] s:max-w-[800px]    ">
-          <p className="font-semibold text-4xl pt-5 pl-4">
+      <div className="container md:ml-[380px]  md:mb-24 s:mb-12 s:m-1">
+        <div className="content xl2:max-w-[980px]    ">
+          <p className="font-semibold md:text-4xl md:pt-5 md:pl-4 s:text-lg s:pt-3 s:pl-2 ">
             Exploring Different Types of Solar Panels
           </p>
 
-          <p className="pl-4 pt-6 ">
+          <p className="md:pl-4 md:pt-6 s:pl-2 s:pt-4 s:text-xs md:text-lg ">
             If you're interested in using solar energy, there are several
             different types of solar panels to choose from. Each type has its
             own special features and advantages. Let's explore the most commonly
             used solar panels in the industry today.
           </p>
 
-          <div className="pl-4 pt-16 ">
-            <p className="font-semibold text-2xl">
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5 ">
+            <p className="font-semibold md:text-4xl md:pt-5 md:pl-4 s:text-lg s:pt-3 s:pl-2 ">
               How to decide which Roof Type is Suitable for Solar Panel
               Installation?
             </p>
           </div>
 
-          <div className="flex flex-row pt-16  justify-center">
-            <div className=" w-[100px]  ml-4  mt-[5px] ">
+          <div className="flex flex-row justify-center md:pt-5 s:mt-3  s:pt-5 m:pt-5  ">
+            <div className=" md:w-[100px]  md:ml-4  md:mt-[10px] s:w-[90%] m:w-[80%] sm:w-[70%] s:ml-3 s:mt-[-15px]">
               <img src={orangelogo} className="" alt="" />
             </div>
 
-            <div className="  justify-center mt-10 ml-[-50px] ">
-              <img
-                className="max-w-[700px] items-center"
-                src={Rintegrity}
-                alt=""
-              />
+            <div className="  justify-center md:mt-14 md:ml-[-70px] s:mt-1 s:ml-[-15px]">
+              <img className="md:max-w-[600px] lg:max-w-[700px] s:max-w-[100%]   items-center" src={Rintegrity} alt="" />
             </div>
 
-            <div className=" w-[100px] mt-[425px] ml-[-35px]">
+            <div className=" md:w-[100px] md:mt-[345px] lg:mt-[415px] md:ml-[-65px] s:w-[90%]  m:w-[80%] sm:w-[70%] s:mt-[140px] sm:mt-[180px] m:mt-[160px] s:mr-[10px] s:ml-[-15px]">
               <img src={bluelogo} className="" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">Monocrystalline Solar Panels </p>
-            <p>
+
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Monocrystalline Solar Panels </p>
+            <p className="s:text-xs md:text-lg">
               Monocrystalline solar panels are created using a solitary crystal
               structure, usually made of silicon. These panels are recognized
               for their impressive efficiency and stylish black look.
@@ -86,23 +83,23 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28 mt-2">
-              <img src={orangelogo} className="w-[80px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[390px] mt-12 ml-[-40px] ">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Monopanel} alt="" />
             </div>
 
-            <div className="mt-[248px] ml-[-40px]">
-              <img src={bluelogo} className="w-[80px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">Polycrystalline Solar Panels </p>
-            <p>
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Polycrystalline Solar Panels </p>
+            <p className="s:text-xs md:text-lg">
               Polycrystalline solar panels are created by combining multiple
               pieces of silicon, which gives them a textured, blue-speckled
               look. Although they are not as efficient as monocrystalline
@@ -112,23 +109,23 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28 mt-2">
-              <img src={orangelogo} className="w-[80px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[390px] mt-12 ml-[-40px] ">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Polypanel} alt="" />
             </div>
 
-            <div className="mt-[248px] ml-[-40px]">
-              <img src={bluelogo} className="w-[80px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">Thin-Film Solar Panels </p>
-            <p>
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Thin-Film Solar Panels </p>
+            <p className="s:text-xs md:text-lg">
               Thin-film solar panels are light and flexible, making them perfect
               for a variety of uses. They are created by placing a thin layer of
               semiconductor material onto a base. While thin-film panels are not
@@ -138,23 +135,23 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28 mt-2">
-              <img src={orangelogo} className="w-[80px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[390px] mt-12 ml-[-40px] ">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Thinpanel} alt="" />
             </div>
 
-            <div className="mt-[248px] ml-[-40px]">
-              <img src={bluelogo} className="w-[80px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">Bifacial Solar Panels </p>
-            <p>
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Bifacial Solar Panels </p>
+            <p className="s:text-xs md:text-lg">
               Bifacial solar panels are designed to capture sunlight from both
               sides, which helps to maximize their energy generation. These
               panels can harness direct sunlight from above and also utilize the
@@ -165,23 +162,23 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28 mt-2">
-              <img src={orangelogo} className="w-[80px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[390px] mt-12 ml-[-40px] ">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Bifapanel} alt="" />
             </div>
 
-            <div className="mt-[248px] ml-[-40px]">
-              <img src={bluelogo} className="w-[80px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">Solar Shingles </p>
-            <p>
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Solar Shingles </p>
+            <p className="s:text-xs md:text-lg">
               Solar shingles, or solar roof tiles, seamlessly blend in with
               regular roofing materials, offering both protection for the roof
               and the ability to generate electricity. They are a visually
@@ -190,25 +187,25 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28 mt-2">
-              <img src={orangelogo} className="w-[80px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[390px] mt-12 ml-[-40px] ">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Shinglespanel} alt="" />
             </div>
 
-            <div className="mt-[248px] ml-[-40px]">
-              <img src={bluelogo} className="w-[80px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">
               Building-Integrated Photovoltaics (BIPV){" "}
             </p>
-            <p>
+            <p className="s:text-xs md:text-lg">
               BIPV stands for Building Integrated Photovoltaics, which means
               incorporating solar panels into building materials like windows,
               facades, or walls. Instead of regular building components, these
@@ -218,7 +215,7 @@ export default function ThirdPage() {
               integrity.
             </p>
 
-            <p>
+            <p className="s:text-xs md:text-lg">
               Knowing the various kinds of solar panels allows people and
               companies to make well-informed choices when switching to solar
               power. Whether you prefer the excellent efficiency of
@@ -229,25 +226,25 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28 mt-2">
-              <img src={orangelogo} className="w-[80px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[390px] mt-12 ml-[-40px] ">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={BuildIntepanel} alt="" />
             </div>
 
-            <div className="mt-[248px] ml-[-40px]">
-              <img src={bluelogo} className="w-[80px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">
               Solar Inverters: Powering Your Solar PV System{" "}
             </p>
-            <p>
+            <p className="s:text-xs md:text-lg">
               Solar inverters are essential for capturing solar energy and
               transforming it into usable electricity. They serve as the core
               component of a solar photovoltaic (PV) system, guaranteeing
@@ -257,25 +254,25 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28 mt-2">
-              <img src={orangelogo} className="w-[80px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[390px] mt-12 ml-[-40px] ">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Solarinventpanel} alt="" />
             </div>
 
-            <div className="mt-[248px] ml-[-40px]">
-              <img src={bluelogo} className="w-[80px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">
               Role of Solar Inverters in a Solar PV System:
             </p>
-            <p>
+            <p className="s:text-xs md:text-lg">
               Solar inverters play a crucial role in a solar PV system by
               converting the DC electricity generated by solar panels into AC
               electricity that can be used to power appliances and feed into the
@@ -285,9 +282,9 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">Types of Solar Inverters:</p>
-            <p>
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Types of Solar Inverters:</p>
+            <p className="s:text-xs md:text-lg">
               There are various kinds of solar inverters to choose from, each
               with their own set of distinct advantages and characteristics. The
               three primary types are string inverters, microinverters, and
@@ -295,9 +292,9 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">String Inverters:</p>
-            <p>
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">String Inverters:</p>
+            <p className="s:text-xs md:text-lg">
               String inverters are frequently utilized in solar photovoltaic
               (PV) systems. They are linked to a group of solar panels, called a
               string, and transform the collective DC electricity into AC
@@ -306,23 +303,23 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28 mt-2">
-              <img src={orangelogo} className="w-[80px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[390px] mt-12 ml-[-40px] ">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Inventerpanel} alt="" />
             </div>
 
-            <div className="mt-[248px] ml-[-40px]">
-              <img src={bluelogo} className="w-[80px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">Microinverters </p>
-            <p>
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Microinverters </p>
+            <p className="s:text-xs md:text-lg">
               Each solar panel is equipped with microinverters, which enable
               independent power conversion. This design boosts system
               performance, particularly in installations with shading or panel
@@ -331,23 +328,23 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28 mt-2">
-              <img src={orangelogo} className="w-[80px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[390px] mt-12 ml-[-40px] ">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Micropanel} alt="" />
             </div>
 
-            <div className="mt-[248px] ml-[-40px]">
-              <img src={bluelogo} className="w-[80px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">Power Optimizers </p>
-            <p>
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Power Optimizers </p>
+            <p className="s:text-xs md:text-lg">
               Power optimizers are used alongside string inverters to enhance
               the performance of solar panels. These optimizers are connected to
               each panel and work by maximizing the power output, ensuring that
@@ -358,11 +355,11 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">
               Monitoring and Troubleshooting Solar Inverters:{" "}
             </p>
-            <p>
+            <p className="s:text-xs md:text-lg">
               Monitoring solar inverters regularly is important to ensure the
               best performance of the system. Many inverters have monitoring
               systems built-in, which give users real-time information on energy
@@ -373,11 +370,11 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          <div className="pl-4 pt-10">
-            <p className="font-semibold">
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">
               Inverter Efficiency and Power Output:{" "}
             </p>
-            <p>
+            <p className="s:text-xs md:text-lg">
               When selecting a solar inverter, it's important to consider its
               efficiency. Inverters with higher efficiency can convert a larger
               portion of DC electricity into usable AC electricity, which leads
