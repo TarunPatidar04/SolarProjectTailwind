@@ -37,7 +37,7 @@ export default function FirstPage() {
           <p className="font-semibold md:text-4xl md:pt-5 md:pl-4 s:text-lg s:pt-3 s:pl-2">
             All About Solar Power
           </p>
-          <p className="md:pl-4 md:pt-6 s:pl-2 s:pt-4 s:text-xs md:text-lg ">
+          <p className="md:pl-4 md:pt-6 s:pl-2 s:pt-4 s:text-xs md:text-lg">
             Solar energy is a type of clean energy that comes from the sun. It
             is renewable and abundant, which means there is plenty of it
             available. Using solar energy has a lot of advantages, such as

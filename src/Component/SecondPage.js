@@ -11,40 +11,40 @@ import Solpanel from "../Component/Img/Solpanel.png";
 
 function SecondPage() {
   return (
-    <div className="max-w-[1440px] min-w-[1200px] container flex">
-      <div className="space-y-5 font-semibold text-sm text-white mt-[120px] cursor-pointer ">
-        <div className="sidebar xl2:w-[400px] bg-[#235688] justify-center space-y-3 pl-9 top-0 pt-14 h-[100%] w-[350px] bg-fixed fixed text-left">
-          <p className="hover:text-slate-300">All About Solar Power</p>
-          <p className="hover:text-slate-300">Solar Panel Installation</p>
-          <p className="hover:text-slate-300">
-            Exploring Different Types of Solar Panels{" "}
-          </p>
-          <p className="hover:text-slate-300">
-            Calculating the Budget for Solar Installation
-          </p>
-          <p className="hover:text-slate-300">
-            A Guide to Finding the Right Solar Installer{" "}
-          </p>
-          <p className="hover:text-slate-300">
-            Steps to Get Started with Solar Energy
-          </p>
-          <p className="hover:text-slate-300">
-            In Which Category Dom You Belong to?
-          </p>
-        </div>
+    <div className="   container flex">
+    <div className="space-y-5 font-semibold text-left  hidden md:block md:text-sm text-white mt-[120px] cursor-pointer ">
+      <div className="sidebar bg-[#235688] justify-center space-y-3 pl-9 top-0 pt-14 h-[100%] w-[350px] bg-fixed fixed">
+        <p className="hover:text-slate-300">All About Solar Power</p>
+        <p className="hover:text-slate-300">Solar Panel Installation</p>
+        <p className="hover:text-slate-300">
+          Exploring Different Types of Solar Panels
+        </p>
+        <p className="hover:text-slate-300">
+          Calculating the Budget for Solar Installation
+        </p>
+        <p className="hover:text-slate-300">
+          A Guide to Finding the Right Solar Installer
+        </p>
+        <p className="hover:text-slate-300">
+          Steps to Get Started with Solar Energy
+        </p>
+        <p className="hover:text-slate-300">
+          In Which Category Dom You Belong to?
+        </p>
       </div>
+    </div>
 
-      <div className="container  ml-[370px] xl2:ml-[430px] s:max-w-[800px] mb-24">
-        <div className=" content xl2:max-w-[980px] s:max-w-[800px]">
-          <p className="font-semibold text-4xl pt-5 pl-4 ">
+      <div className="container md:ml-[380px] s:max-w-[80%px] md:mb-24 s:mb-12 s:m-1">
+        <div className=" content xl2:max-w-[980px] s:max-w-[80%px]">
+          <p className="font-semibold md:text-4xl md:pt-5 md:pl-4 s:text-lg s:pt-3 s:pl-2 ">
             Solar Panel Installation
           </p>
 
-          <div className="pl-4 pt-5">
-            <p className="font-semibold">
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">
               Roof Types Suitable for Solar Panel Installation
             </p>
-            <p>
+            <p className="md:pl-4 md:pt-6 s:pl-2 s:pt-4 s:text-xs md:text-lg">
               Discover the best roofs for installing solar panels, such as
               pitched roofs, flat roofs, and metal roofs. Gain insights into the
               factors to consider when choosing roof materials and their
@@ -52,31 +52,31 @@ function SecondPage() {
             </p>
           </div>
 
-          <div className="pl-4 pt-16 ">
-            <p className="font-semibold text-2xl">
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5 ">
+            <p className="font-semibold s:text-base md:text-xl">
               How to decide which Roof Type is Suitable for Solar Panel
               Installation?
             </p>
           </div>
 
-          <div className="flex flex-row pt-16 justify-center">
-            <div className=" w-[100px]  ml-4  mt-[10px] ">
+          <div className="flex flex-row justify-center md:pt-5 s:mt-3  s:pt-5 m:pt-5  ">
+            <div className=" md:w-[100px]  md:ml-4  md:mt-[10px] s:max-w-[90%] s:ml-3 s:mt-[-15px]">
               <img src={orangelogo} className="" alt="" />
             </div>
 
-            <div className="  justify-center mt-14 ml-[-50px] ">
-              <img className="max-w-[700px] items-center" src={Spanel} alt="" />
+            <div className="  justify-center md:mt-14 md:ml-[-70px] s:mt-1 s:ml-[-15px]">
+              <img className="md:max-w-[600px] lg:max-w-[700px] s:max-w-[100%]   items-center" src={Spanel} alt="" />
             </div>
 
-            <div className=" w-[100px] mt-[415px] ml-[-35px]">
+            <div className=" md:w-[100px] md:mt-[345px] lg:mt-[415px] md:ml-[-65px] s:max-w-[90%] s:mt-[140px] sm:mt-[180px] m:mt-[160px] s:mr-[10px] s:ml-[-15px]">
               <img src={bluelogo} className="" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-5">
-            <p className="font-semibold">Roof Orientation and Angle:</p>
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Roof Orientation and Angle:</p>
             <p>
-              <ul className="list-disc ml-9">
+              <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
                   South-facing roofs generally receive the most sunlight
                   throughout the day and are considered ideal for solar panel
@@ -95,24 +95,24 @@ function SecondPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28">
-              <img src={orangelogo} className="w-[100px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[400px] mt-12 ml-[-40px]">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Rangle} alt="" />
             </div>
 
-            <div className="mt-[280px] ml-[-37px]">
-              <img src={bluelogo} className="w-[100px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-5">
-            <p className="font-semibold">Roof Material:</p>
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Roof Material:</p>
             <p>
-              <ul className="list-disc ml-9">
+              <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
                   Different roofing materials have varying degrees of
                   suitability for solar panel installation.
@@ -129,24 +129,26 @@ function SecondPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28">
-              <img src={orangelogo} className="w-[100px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[400px] mt-12 ml-[-40px]">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Rmaterial} alt="" />
             </div>
 
-            <div className="mt-[280px] ml-[-37px]">
-              <img src={bluelogo} className="w-[100px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-5">
-            <p className="font-semibold">Roof Age and Condition:</p>
+
+
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Roof Age and Condition:</p>
             <p>
-              <ul className="list-disc ml-9">
+              <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
                   Consider the age and condition of your roof before installing
                   solar panels.
@@ -160,24 +162,25 @@ function SecondPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center ">
-            <div className="ml-28">
-              <img src={orangelogo} className="w-[100px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[400px] mt-12 ml-[-40px]">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Rage} alt="" />
             </div>
 
-            <div className="mt-[280px] ml-[-37px]">
-              <img src={bluelogo} className="w-[100px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-5">
-            <p className="font-semibold">Roof Shape and Pitch:</p>
+
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Roof Shape and Pitch:</p>
             <p>
-              <ul className="list-disc ml-9">
+              <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
                   The shape and pitch of your roof can impact solar panel
                   installation.
@@ -195,24 +198,25 @@ function SecondPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28">
-              <img src={orangelogo} className="w-[100px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[400px] mt-12 ml-[-40px]">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Rpitch} alt="" />
             </div>
 
-            <div className="mt-[280px] ml-[-37px]">
-              <img src={bluelogo} className="w-[100px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-5">
-            <p className="font-semibold">Shade and Obstructions:</p>
+
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Shade and Obstructions:</p>
             <p>
-              <ul className="list-disc ml-9">
+              <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
                   Assess the amount of shade your roof receives throughout the
                   day.
@@ -230,24 +234,25 @@ function SecondPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28">
-              <img src={orangelogo} className="w-[100px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[400px] mt-12 ml-[-40px]">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Rshade} alt="" />
             </div>
 
-            <div className="mt-[280px] ml-[-37px]">
-              <img src={bluelogo} className="w-[100px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
 
-          <div className="pl-4 pt-5">
-            <p className="font-semibold">Structural Integrity:</p>
+
+          <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
+            <p className="font-semibold s:text-base md:text-xl">Structural Integrity:</p>
             <p>
-              <ul className="list-disc ml-9">
+              <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
                   Ensure that your roof has sufficient structural integrity to
                   support the weight of solar panels.
@@ -269,19 +274,21 @@ function SecondPage() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-8 justify-center">
-            <div className="ml-28">
-              <img src={orangelogo} className="w-[100px]" alt="" />
+          <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
+            <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
+              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
 
-            <div className="max-w-[400px] mt-12 ml-[-40px]">
+            <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
               <img src={Solpanel} alt="" />
             </div>
 
-            <div className="mt-[230px] ml-[-39px]">
-              <img src={bluelogo} className="w-[100px]" alt="" />
+            <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
+              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
             </div>
           </div>
+
+
         </div>
       </div>
     </div>
