@@ -9,32 +9,10 @@ import Positive from "../Component/Img/Positive.png";
 
 export default function FirstPage() {
   return (
-    <div className="   container flex">
-      <div className="space-y-5 font-semibold text-left  hidden md:block md:text-sm text-white mt-[120px] cursor-pointer ">
-        <div className="sidebar bg-[#235688] justify-center space-y-3 pl-9 top-0 pt-14 h-[100%] w-[350px] bg-fixed fixed">
-          <p className="hover:text-slate-300">All About Solar Power</p>
-          <p className="hover:text-slate-300">Solar Panel Installation</p>
-          <p className="hover:text-slate-300">
-            Exploring Different Types of Solar Panels
-          </p>
-          <p className="hover:text-slate-300">
-            Calculating the Budget for Solar Installation
-          </p>
-          <p className="hover:text-slate-300">
-            A Guide to Finding the Right Solar Installer
-          </p>
-          <p className="hover:text-slate-300">
-            Steps to Get Started with Solar Energy
-          </p>
-          <p className="hover:text-slate-300">
-            In Which Category Dom You Belong to?
-          </p>
-        </div>
-      </div>
-
-      <div className="container md:ml-[380px]  md:mb-24 s:mb-12 ">
-        <div className="content xl2:max-w-[980px]  ">
-          <p className="font-semibold md:text-4xl md:pt-5 md:pl-4 s:text-lg s:pt-3 s:pl-2">
+    <div className=" outer-container flex  m-2">
+      <div className="container xl2:ml-[370px] lg:ml-[300px] md:ml-[280px]  md:mb-24 s:mb-12 s:mt-10 md:mt-[-120px]">
+        <div className="content xl2:max-w-[980px]">
+          <p className="font-semibold md:text-4xl md:pt-5 md:pl-4 s:text-lg s:pt-3 s:pl-2 ">
             All About Solar Power
           </p>
           <p className="md:pl-4 md:pt-6 s:pl-2 s:pt-4 s:text-xs md:text-lg">
@@ -54,7 +32,11 @@ export default function FirstPage() {
             </div>
 
             <div className="  justify-center md:mt-14 md:ml-[-50px]  ">
-              <img className="md:max-w-[700px] s:max-w-[70%]   items-center" src={Home} alt="" />
+              <img
+                className="md:max-w-[700px] s:max-w-[70%]   items-center"
+                src={Home}
+                alt=""
+              />
             </div>
 
             <div className=" md:w-[100px] md:mt-[415px] md:ml-[-35px] s:w-[100%] s:mt-[100px] s:ml-[-45px] ">
@@ -63,7 +45,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Clean and Renewable: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Clean and Renewable:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Solar energy is a clean and renewable source, which helps reduce
               our reliance on fossil fuels and decrease greenhouse gas
@@ -73,7 +57,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Cost Savings: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Cost Savings:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Using solar energy can lead to significant cost savings on
               electricity bills in the long run. This makes it a wise investment
@@ -83,7 +69,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Energy Independence: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Energy Independence:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               With solar energy, users can achieve energy independence by
               generating their own electricity. This reduces dependence on the
@@ -94,7 +82,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Low Maintenance: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Low Maintenance:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Solar panels are low maintenance and have a long lifespan,
               providing a reliable and hassle-free energy solution. This means
@@ -105,7 +95,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5 ">
-            <p className="font-semibold s:text-base md:text-xl">Incentives and Rebates </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Incentives and Rebates{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Moreover, there are incentives, tax credits, and rebates offered
               by governments and utilities to encourage the adoption of solar
@@ -129,7 +121,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Who Benefits from Solar Energy?</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Who Benefits from Solar Energy?
+            </p>
           </div>
 
           <div className="flex flex-row justify-center md:pt-16 s:mt-5 s:mr-5  s:pt-1 ">
@@ -138,7 +132,11 @@ export default function FirstPage() {
             </div>
 
             <div className="  justify-center md:mt-14 md:ml-[-50px]  ">
-              <img className="md:max-w-[700px] s:max-w-[70%]   items-center" src={Msme} alt="" />
+              <img
+                className="md:max-w-[700px] s:max-w-[70%]   items-center"
+                src={Msme}
+                alt=""
+              />
             </div>
 
             <div className=" md:w-[100px] md:mt-[415px] md:ml-[-35px] s:w-[100%] s:mt-[100px] s:ml-[-45px] ">
@@ -147,7 +145,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Cost Savings: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Cost Savings:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Solar energy helps MSMEs reduce their operational expenses by
               lowering electricity bills.
@@ -155,7 +155,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Energy Security: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Energy Security:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               MSMEs can become self-sufficient in terms of energy supply and
               reduce the impact of power outages.
@@ -163,7 +165,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Enhanced Reputation: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Enhanced Reputation:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Embracing solar energy showcases a commitment to sustainability
               and can attract environmentally conscious customers.
@@ -172,7 +176,11 @@ export default function FirstPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-5 justify-center">
             <div className="md:ml-28 s:ml-20 ">
-              <img src={orangelogo} className="md:max-w-[100px] s:max-w-[40%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:max-w-[100px] s:max-w-[40%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[290px] md:mt-12 md:ml-[-40px]  s:max-w-[150px] s:ml-[-50px] ">
@@ -180,7 +188,11 @@ export default function FirstPage() {
             </div>
 
             <div className="md:mt-[310px] md:ml-[-40px] s:mt-[140px] s:ml-[-10px]">
-              <img src={bluelogo} className="md:max-w-[100px] s:max-w-[40%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:max-w-[100px] s:max-w-[40%]"
+                alt=""
+              />
             </div>
           </div>
 
@@ -189,7 +201,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Sustainability Goals:</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Sustainability Goals:
+            </p>
             <p className="s:text-xs md:text-lg">
               Solar energy enables enterprises to meet sustainability targets,
               reduce carbon footprints, and align with green initiatives.
@@ -197,7 +211,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Financial Benefits:</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Financial Benefits:
+            </p>
             <p className="s:text-xs md:text-lg">
               Lower energy costs contribute to increased profitability and a
               positive return on investment.
@@ -205,7 +221,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Energy Resilience: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Energy Resilience:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Solar power provides a reliable energy source, reducing
               vulnerability to grid disruptions and price fluctuations.
@@ -214,7 +232,11 @@ export default function FirstPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-5 justify-center">
             <div className="md:ml-28 s:ml-20 ">
-              <img src={orangelogo} className="md:max-w-[100px] s:max-w-[40%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:max-w-[100px] s:max-w-[40%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[290px] md:mt-12 md:ml-[-40px]  s:max-w-[150px] s:ml-[-50px] ">
@@ -222,7 +244,11 @@ export default function FirstPage() {
             </div>
 
             <div className="md:mt-[310px] md:ml-[-40px] s:mt-[140px] s:ml-[-10px]">
-              <img src={bluelogo} className="md:max-w-[100px] s:max-w-[40%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:max-w-[100px] s:max-w-[40%]"
+                alt=""
+              />
             </div>
           </div>
 
@@ -231,7 +257,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Reduced Electricity Bills: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Reduced Electricity Bills:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Installing solar panels helps citizens save money on their monthly
               electricity bills.
@@ -239,7 +267,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5 s:text-base md:block">
-            <p className="font-semibold s:text-base md:text-xl">Energy Independence: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Energy Independence:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Citizens can become more self-reliant by generating their own
               clean energy and reducing reliance on the grid.
@@ -247,7 +277,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5 ">
-            <p className="font-semibold s:text-base md:text-xl">Environmental Impact:</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Environmental Impact:
+            </p>
             <p className="s:text-xs md:text-lg">
               Using solar energy helps individuals reduce their carbon footprint
               and contribute to a cleaner environment.
@@ -256,7 +288,11 @@ export default function FirstPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-5 justify-center">
             <div className="md:ml-28 s:ml-20 ">
-              <img src={orangelogo} className="md:max-w-[100px] s:max-w-[40%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:max-w-[100px] s:max-w-[40%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[290px] md:mt-12 md:ml-[-40px]  s:max-w-[150px] s:ml-[-50px] ">
@@ -264,7 +300,11 @@ export default function FirstPage() {
             </div>
 
             <div className="md:mt-[310px] md:ml-[-40px] s:mt-[140px] s:ml-[-10px]">
-              <img src={bluelogo} className="md:max-w-[100px] s:max-w-[40%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:max-w-[100px] s:max-w-[40%]"
+                alt=""
+              />
             </div>
           </div>
 
@@ -273,7 +313,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-24 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Sustainable Manufacturing: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Sustainable Manufacturing:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Solar energy enables industries to power their manufacturing
               processes with clean energy, reducing environmental impact.
@@ -281,7 +323,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-24 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Energy Efficiency: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Energy Efficiency:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Implementing solar technologies can enhance energy efficiency in
               industrial operations, leading to cost savings.
@@ -289,7 +333,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-24 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Regulatory Compliance: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Regulatory Compliance:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Adopting solar energy helps industries comply with environmental
               regulations and demonstrate corporate social responsibility.
@@ -298,7 +344,11 @@ export default function FirstPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-5 justify-center">
             <div className="md:ml-28 s:ml-20 ">
-              <img src={orangelogo} className="md:max-w-[100px] s:max-w-[40%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:max-w-[100px] s:max-w-[40%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[290px] md:mt-12 md:ml-[-40px]  s:max-w-[150px] s:ml-[-50px] ">
@@ -306,7 +356,11 @@ export default function FirstPage() {
             </div>
 
             <div className="md:mt-[310px] md:ml-[-40px] s:mt-[140px] s:ml-[-10px]">
-              <img src={bluelogo} className="md:max-w-[100px] s:max-w-[40%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:max-w-[100px] s:max-w-[40%]"
+                alt=""
+              />
             </div>
           </div>
 
@@ -317,7 +371,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Long-term Cost Savings: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Long-term Cost Savings:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Solar power offers a steady and foreseeable supply of electricity,
               lessening dependence on fluctuating energy costs.
@@ -325,7 +381,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Environmental Stewardship: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Environmental Stewardship:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Investing in solar power allows both individuals and businesses to
               play a part in creating a more sustainable and
@@ -334,7 +392,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Energy Independence: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Energy Independence:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Solar installations offer energy self-sufficiency and protection
               against rising energy costs and power outages.
@@ -342,7 +402,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5 ">
-            <p className="font-semibold s:text-base md:text-xl">Financial Incentives: </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Financial Incentives:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Government incentives, tax credits, and net metering programs can
               significantly offset the initial investment in solar.
@@ -350,7 +412,9 @@ export default function FirstPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:block">Future-Proofing: </p>
+            <p className="font-semibold s:text-base md:block">
+              Future-Proofing:{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Investing in solar energy ensures resilience in the face of
               potential energy supply challenges and evolving energy landscapes.

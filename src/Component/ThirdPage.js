@@ -1,6 +1,5 @@
 import orangelogo from "../Component/Logo/Orangelogo.png";
 import bluelogo from "../Component/Logo/Bluelogo.png";
-
 import Bifapanel from "../Component/Img/Bifapanel.png";
 import BuildIntepanel from "../Component/Img/BuildIntepanel.png";
 import Inventerpanel from "../Component/Img/Inventerpanel.png";
@@ -14,30 +13,8 @@ import Thinpanel from "../Component/Img/Thinpanel.png";
 
 export default function ThirdPage() {
   return (
-    <div className="   container flex">
-    <div className="space-y-5 font-semibold text-left  hidden md:block md:text-sm text-white mt-[120px] cursor-pointer ">
-      <div className="sidebar bg-[#235688] justify-center space-y-3 pl-9 top-0 pt-14 h-[100%] w-[350px] bg-fixed fixed">
-        <p className="hover:text-slate-300">All About Solar Power</p>
-        <p className="hover:text-slate-300">Solar Panel Installation</p>
-        <p className="hover:text-slate-300">
-          Exploring Different Types of Solar Panels
-        </p>
-        <p className="hover:text-slate-300">
-          Calculating the Budget for Solar Installation
-        </p>
-        <p className="hover:text-slate-300">
-          A Guide to Finding the Right Solar Installer
-        </p>
-        <p className="hover:text-slate-300">
-          Steps to Get Started with Solar Energy
-        </p>
-        <p className="hover:text-slate-300">
-          In Which Category Dom You Belong to?
-        </p>
-      </div>
-    </div>
-
-      <div className="container md:ml-[380px]  md:mb-24 s:mb-12 s:m-1">
+    <div className=" outer-container flex  ">
+      <div className="container xl2:ml-[370px] lg:ml-[300px] md:ml-[280px]  md:mb-24 s:mb-12 s:mt-10  md:mt-[-120px]">
         <div className="content xl2:max-w-[980px]    ">
           <p className="font-semibold md:text-4xl md:pt-5 md:pl-4 s:text-lg s:pt-3 s:pl-2 ">
             Exploring Different Types of Solar Panels
@@ -63,7 +40,11 @@ export default function ThirdPage() {
             </div>
 
             <div className="  justify-center md:mt-14 md:ml-[-70px] s:mt-1 s:ml-[-15px]">
-              <img className="md:max-w-[600px] lg:max-w-[700px] s:max-w-[100%]   items-center" src={Rintegrity} alt="" />
+              <img
+                className="md:max-w-[600px] lg:max-w-[700px] s:max-w-[100%]   items-center"
+                src={Rintegrity}
+                alt=""
+              />
             </div>
 
             <div className=" md:w-[100px] md:mt-[345px] lg:mt-[415px] md:ml-[-65px] s:w-[90%]  m:w-[80%] sm:w-[70%] s:mt-[140px] sm:mt-[180px] m:mt-[160px] s:mr-[10px] s:ml-[-15px]">
@@ -71,9 +52,10 @@ export default function ThirdPage() {
             </div>
           </div>
 
-
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Monocrystalline Solar Panels </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Monocrystalline Solar Panels{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Monocrystalline solar panels are created using a solitary crystal
               structure, usually made of silicon. These panels are recognized
@@ -85,7 +67,11 @@ export default function ThirdPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -93,12 +79,18 @@ export default function ThirdPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Polycrystalline Solar Panels </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Polycrystalline Solar Panels{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Polycrystalline solar panels are created by combining multiple
               pieces of silicon, which gives them a textured, blue-speckled
@@ -111,7 +103,11 @@ export default function ThirdPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -119,12 +115,18 @@ export default function ThirdPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Thin-Film Solar Panels </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Thin-Film Solar Panels{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Thin-film solar panels are light and flexible, making them perfect
               for a variety of uses. They are created by placing a thin layer of
@@ -137,7 +139,11 @@ export default function ThirdPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -145,12 +151,18 @@ export default function ThirdPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Bifacial Solar Panels </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Bifacial Solar Panels{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Bifacial solar panels are designed to capture sunlight from both
               sides, which helps to maximize their energy generation. These
@@ -164,7 +176,11 @@ export default function ThirdPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -172,12 +188,18 @@ export default function ThirdPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Solar Shingles </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Solar Shingles{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Solar shingles, or solar roof tiles, seamlessly blend in with
               regular roofing materials, offering both protection for the roof
@@ -189,7 +211,11 @@ export default function ThirdPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -197,7 +223,11 @@ export default function ThirdPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
@@ -228,7 +258,11 @@ export default function ThirdPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -236,7 +270,11 @@ export default function ThirdPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
@@ -256,7 +294,11 @@ export default function ThirdPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -264,7 +306,11 @@ export default function ThirdPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
@@ -283,7 +329,9 @@ export default function ThirdPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Types of Solar Inverters:</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Types of Solar Inverters:
+            </p>
             <p className="s:text-xs md:text-lg">
               There are various kinds of solar inverters to choose from, each
               with their own set of distinct advantages and characteristics. The
@@ -293,7 +341,9 @@ export default function ThirdPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">String Inverters:</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              String Inverters:
+            </p>
             <p className="s:text-xs md:text-lg">
               String inverters are frequently utilized in solar photovoltaic
               (PV) systems. They are linked to a group of solar panels, called a
@@ -305,7 +355,11 @@ export default function ThirdPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -313,12 +367,18 @@ export default function ThirdPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Microinverters </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Microinverters{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Each solar panel is equipped with microinverters, which enable
               independent power conversion. This design boosts system
@@ -330,7 +390,11 @@ export default function ThirdPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -338,12 +402,18 @@ export default function ThirdPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Power Optimizers </p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Power Optimizers{" "}
+            </p>
             <p className="s:text-xs md:text-lg">
               Power optimizers are used alongside string inverters to enhance
               the performance of solar panels. These optimizers are connected to

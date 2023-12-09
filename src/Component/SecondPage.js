@@ -11,30 +11,8 @@ import Solpanel from "../Component/Img/Solpanel.png";
 
 function SecondPage() {
   return (
-    <div className="   container flex">
-    <div className="space-y-5 font-semibold text-left  hidden md:block md:text-sm text-white mt-[120px] cursor-pointer ">
-      <div className="sidebar bg-[#235688] justify-center space-y-3 pl-9 top-0 pt-14 h-[100%] w-[350px] bg-fixed fixed">
-        <p className="hover:text-slate-300">All About Solar Power</p>
-        <p className="hover:text-slate-300">Solar Panel Installation</p>
-        <p className="hover:text-slate-300">
-          Exploring Different Types of Solar Panels
-        </p>
-        <p className="hover:text-slate-300">
-          Calculating the Budget for Solar Installation
-        </p>
-        <p className="hover:text-slate-300">
-          A Guide to Finding the Right Solar Installer
-        </p>
-        <p className="hover:text-slate-300">
-          Steps to Get Started with Solar Energy
-        </p>
-        <p className="hover:text-slate-300">
-          In Which Category Dom You Belong to?
-        </p>
-      </div>
-    </div>
-
-      <div className="container md:ml-[380px]  md:mb-24 s:mb-12 s:m-1">
+    <div className=" outer-container flex  ">
+      <div className="container xl2:ml-[370px] lg:ml-[300px] md:ml-[280px]  md:mb-24 s:mb-12 s:mt-10  md:mt-[-120px]">
         <div className=" content xl2:max-w-[980px] ">
           <p className="font-semibold md:text-4xl md:pt-5 md:pl-4 s:text-lg s:pt-3 s:pl-2 ">
             Solar Panel Installation
@@ -65,7 +43,11 @@ function SecondPage() {
             </div>
 
             <div className="  justify-center md:mt-14 md:ml-[-70px] s:mt-1 s:ml-[-15px]">
-              <img className="md:max-w-[600px] lg:max-w-[700px] s:max-w-[100%]   items-center" src={Spanel} alt="" />
+              <img
+                className="md:max-w-[600px] lg:max-w-[700px] s:max-w-[100%]   items-center"
+                src={Spanel}
+                alt=""
+              />
             </div>
 
             <div className=" md:w-[100px] md:mt-[345px] lg:mt-[415px] md:ml-[-65px] s:max-w-[90%] s:mt-[140px] sm:mt-[180px] m:mt-[160px] s:mr-[10px] s:ml-[-15px]">
@@ -74,7 +56,9 @@ function SecondPage() {
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Roof Orientation and Angle:</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Roof Orientation and Angle:
+            </p>
             <p>
               <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
@@ -97,7 +81,11 @@ function SecondPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -105,12 +93,18 @@ function SecondPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Roof Material:</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Roof Material:
+            </p>
             <p>
               <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
@@ -131,7 +125,11 @@ function SecondPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -139,14 +137,18 @@ function SecondPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
-
-
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Roof Age and Condition:</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Roof Age and Condition:
+            </p>
             <p>
               <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
@@ -164,7 +166,11 @@ function SecondPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -172,13 +178,18 @@ function SecondPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
-
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Roof Shape and Pitch:</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Roof Shape and Pitch:
+            </p>
             <p>
               <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
@@ -200,7 +211,11 @@ function SecondPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -208,13 +223,18 @@ function SecondPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
-
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Shade and Obstructions:</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Shade and Obstructions:
+            </p>
             <p>
               <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
@@ -236,7 +256,11 @@ function SecondPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -244,13 +268,18 @@ function SecondPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
 
-
           <div className="md:pl-4 md:pt-10 s:pl-2 s:pt-5">
-            <p className="font-semibold s:text-base md:text-xl">Structural Integrity:</p>
+            <p className="font-semibold s:text-base md:text-xl">
+              Structural Integrity:
+            </p>
             <p>
               <ul className="list-disc md:ml-9 s:ml-6 s:text-xs md:text-lg">
                 <li>
@@ -276,7 +305,11 @@ function SecondPage() {
 
           <div className="flex flex-row md:mt-8 s:mt-4 m:mt-4 justify-center md:mr-20 s:mr-3">
             <div className="md:ml-28 s:ml-14 sm:ml-20 m:ml-20">
-              <img src={orangelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={orangelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
 
             <div className="md:max-w-[400px]  s:max-w-[200px]  md:mt-12 s:mt-5 m:mt-5 md:ml-[-40px] s:ml-[-40px] m:ml-[-70px] sm:ml-[-110px]">
@@ -284,11 +317,13 @@ function SecondPage() {
             </div>
 
             <div className="md:mt-[250px]  s:mt-[130px] m:mt-[125px] sm:mt-[125px] md:ml-[-37px] s:ml-[-17px] m:ml-[-17px] sm:ml-[-14px] ">
-              <img src={bluelogo} className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]" alt="" />
+              <img
+                src={bluelogo}
+                className="md:w-[100px] s:w-[60%] m:w-[40%] sm:w-[30%]"
+                alt=""
+              />
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
