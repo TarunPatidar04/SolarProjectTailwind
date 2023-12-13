@@ -1,58 +1,83 @@
-import React from "react";
-import styles from "./Product.module.css";
+import React, { useState } from "react";
 import profile from "./Images/profile.png";
-import notificationVendor from "./Images/notificationVendor.png";
 import product from "./Images/product.png";
+import notificationVendor from "./Images/notificationVendor.png";
 import userEng from "./Images/userEng.png";
-import help from "./Images/help.png";
 import mono from "./Images/mono.png";
 import star from "./Images/star.png";
+export default function () {
+  const [isOpen, setIsOpen] = useState(false);
 
-const ProductDetails = () => {
+  const showSidebar = () => {
+    console.log("wertyui");
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div className={styles.container}>
-      <div className={styles.leftPanel}>
-        <div className={styles.options}>
-          <div className={styles.option}>
-            <img src={profile} alt="Profile" className={styles.optionIcon} />
+    <div className="main flex">
+      <button
+        className="menu-bar md:hidden p-3 z-999 absolute "
+        id="menuBar"
+        onClick={showSidebar}
+      >
+        <i className="fas fa-bars fa-xl"></i>
+      </button>
+
+      <div
+        className={`${
+          isOpen === true ? "block" : "hidden"
+        } sidebar h-screen sm:break-words  md:block md:relative`}
+      >
+        <ul className="flex flex-col gap-y-5 pt-28 pl-6 s:-mr-3 ">
+          <li className="-mb-2 items-center gap-x-2 s:-ml-3 s:text-sm font-semibold">
+            <img
+              src={profile}
+              alt=""
+              className="w-7 s:w-4 s:opacity-50 md:opacity-100 "
+            />
             Profile
-          </div>
-          <div className={styles.option}>
+          </li>
+          <li className=" -mb-2 items-center gap-x-2 s:text-sm s:-ml-3 font-semibold">
             <img
               src={notificationVendor}
-              alt="Notifications"
-              className={styles.optionIcon}
+              alt=""
+              className="w-7 s:w-4 s:opacity-50 md:opacity-100"
             />
-            Notifications
-          </div>
-          <div className={styles.option}>
-            <img src={product} alt="Products" className={styles.optionIcon} />
-            Products
-          </div>
-          <div className={styles.option}>
+            Notification
+          </li>
+          <li className=" items-center gap-x-2 s:text-sm s:-ml-3 font-semibold -mb-2">
+            <img
+              src={product}
+              alt=""
+              className="w-7 s:w-4 s:opacity-50 md:opacity-100"
+            />
+            Product
+          </li>
+          <li className=" items-center gap-x-2 break-words s:text-sm s:-ml-3 font-semibold">
             <img
               src={userEng}
-              alt="User Engagement"
-              className={styles.optionIcon}
+              alt=""
+              className="w-7 s:w-4 s:opacity-50 md:opacity-100"
             />
-            User Engagement
-          </div>
-        </div>
-        <div className={styles.welcomeText}></div>
-        <div className={styles.logoutSection}>
-          <button className={styles.loginButton}>Login</button>
-        </div>
+            Engagement
+          </li>
+        </ul>
       </div>
-      <div className={styles.rightPanel}>
-        <div className={styles.navbar}>
-          <img src={profile} alt="Profile" className={styles.profile} />
-          profile Picture
-          <img src={help} alt="help" className={styles.help} />
+
+      <div className="content  w-[100%] h-[100vh] ">
+        <div className="flex items-center   justify-end gap-x-1  -mb-5  s:text-sm ">
+          <img
+            src={profile}
+            alt=""
+            className="w-7  mt-2 s:w-4 s:opacity-50 md:opacity-100"
+          />
+          <span className="mt-2 font-semibold">profile</span>
+
+          <span className=" ml-10 mr-5 mt-2 font-semibold">Logout</span>
         </div>
 
-        <div className={styles.grayBackground}>
-          {/* <div className="Details">
-          
+        <div className=" w-[100%] h-[100vh]  ">
+          <div className="Details">
             <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19">
               <div class="text-center shadow-lg rounded">
                 <div class="overflow-hidden">
@@ -465,10 +490,9 @@ const ProductDetails = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
   );
-};
-export default ProductDetails;
+}

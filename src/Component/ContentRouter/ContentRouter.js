@@ -26,7 +26,7 @@ export default function ContentRouter() {
         <div className="sidebar space-y-5 font-semibold text-sm text-white mt-[120px] cursor-pointer ">
           <div className="sidebar xl2:w-[350px] s:w-[200px] bg-[#235688] justify-center space-y-3 xl2:pl-9 s:pl-3 md:pl-2 top-0 pt-14 h-[100%] md:w-[270px] bg-fixed fixed p-8">
 
-            <Link to="/firstPage">
+            <Link to="/">
               <p className="hover:text-slate-300">All About Solar Power</p>
             </Link>
 
@@ -77,7 +77,7 @@ export default function ContentRouter() {
       </button>
 
       <Routes>
-        <Route path="/firstPage" element={<FirstPage />} />
+        <Route path="/" element={<FirstPage />} />
         <Route path="/secondPage" element={<SecondPage />} />
         <Route path="/thirdPage" element={<ThirdPage />} />
         <Route path="/fourthPage" element={<FourthPage />} />

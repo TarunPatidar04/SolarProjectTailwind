@@ -52,8 +52,9 @@ const ProductDetails = () => {
         </div>
 
         <div className={styles.grayBackground}>
+
           <div className="vendordetails">
-            <div></div>
+    
 
             <div className="flex justify-start  ">
               <button
