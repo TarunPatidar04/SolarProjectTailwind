@@ -1,13 +1,16 @@
 
 import './App.css';
+import VendorDetaillls from './Component/VendorDetaillls/VendorDetaillls';
 
 // import ProductDetails from './Component/ProductDetails/ProductDetails';
 // import Vendorlist from './Component/Vendor/Vendorlist';
 // import Vendordetails from './Component/VendorDetails/Vendordetails';
 // import RooftopCalc from './Component/RooftopCalc/RooftopCalc.js';
 // import ContentRouter from "./Component/ContentRouter/ContentRouter.js";
-// import Vend from "./Component/Vend/Vend";
-import ProductDetaills from "./Component/ProductDetaills/ProductDetaills";
+// import ProductDetaills from "./Component/ProductDetaills/ProductDetaills";
+// import Vendordetaills from './Component/VendorDetaills/VendorDetaills';
+
+
 function App() {
   return (
     
@@ -15,10 +18,12 @@ function App() {
    
       {/* <Vendorlist/> size fix and navbar */}
       {/* <ProductDetails/>  */}
-      {/* <Vendordetails/>   size fix and navbar */}
+      {/* <Vendordetails/>    */}
+      {/* <Vendordetaills/>  */}
+      <VendorDetaillls/>  
       {/* <RooftopCalc/>   Size fix*/}
       {/* <ContentRouter/> */}
-      <ProductDetaills/>
+      {/* <ProductDetaills/> */}
 
 
     </div>
