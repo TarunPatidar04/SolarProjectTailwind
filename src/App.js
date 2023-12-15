@@ -1,6 +1,5 @@
 
 import './App.css';
-import VendorDetaillls from './Component/VendorDetaillls/VendorDetaillls';
 
 // import ProductDetails from './Component/ProductDetails/ProductDetails';
 // import Vendorlist from './Component/Vendor/Vendorlist';
@@ -9,6 +8,8 @@ import VendorDetaillls from './Component/VendorDetaillls/VendorDetaillls';
 // import ContentRouter from "./Component/ContentRouter/ContentRouter.js";
 // import ProductDetaills from "./Component/ProductDetaills/ProductDetaills";
 // import Vendordetaills from './Component/VendorDetaills/VendorDetaills';
+// import VendorDetaillls from './Component/VendorDetaillls/VendorDetaillls';
+import AddProduct from './Component/AddProduct/AddProduct';
 
 
 function App() {
@@ -20,10 +21,12 @@ function App() {
       {/* <ProductDetails/>  */}
       {/* <Vendordetails/>    */}
       {/* <Vendordetaills/>  */}
-      <VendorDetaillls/>  
+      {/* <VendorDetaillls/>   */}
       {/* <RooftopCalc/>   Size fix*/}
       {/* <ContentRouter/> */}
       {/* <ProductDetaills/> */}
+      <AddProduct/>
+
 
 
     </div>

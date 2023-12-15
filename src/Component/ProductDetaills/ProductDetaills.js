@@ -5,7 +5,7 @@ import notificationVendor from "./Images/notificationVendor.png";
 import userEng from "./Images/userEng.png";
 import mono from "./Images/mono.png";
 import star from "./Images/star.png";
-export default function () {
+export default function ProductDetaills() {
   const [isOpen, setIsOpen] = useState(false);
 
   const showSidebar = () => {
