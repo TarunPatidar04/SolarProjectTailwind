@@ -81,7 +81,7 @@ export default function AddProduct() {
           </div>
         </div>
 
-        <div className="bg-gray-400 min-h-[100vh] s:p-5 md:p-5 xl2:p-10  xl2:pb-5 lg:p-5 md:mb-22 mb-28">        
+        <div className="bg-gray-400 min-h-[100vh] s:p-5 md:p-5 xl2:p-10  xl2:pb-5 lg:p-5 md:mb-22 mb-28">
           <div className="bg-white -mb-14">
             <div className="flex justify-start  ">
               <div className="lg:p-10 md:p-10 md:ml-11 lg:ml-20 s:p-5 s:ml-5 text-bluue md:font-bold s:font-semibold md:text-[16px] s:text-[14px]">
@@ -105,7 +105,7 @@ export default function AddProduct() {
                     <input
                       type="text"
                       placeholder="HPS Hydro Consultants Pvt. Ltd."
-                      className="bg-gray-200 "
+                      className="bg-gray-200 lg:w-[270px] md:w-[250px]"
                     />
                   </label>{" "}
                   <br /> <br />
@@ -114,8 +114,7 @@ export default function AddProduct() {
                     <textarea
                       name=""
                       id=""
-                      
-                      className="bg-gray-200 resize-none"
+                      className="bg-gray-200 resize-none lg:w-[270px] md:w-[250px]"
                     ></textarea>
                   </label>{" "}
                   <br />
@@ -166,8 +165,6 @@ export default function AddProduct() {
                 </div>
               </div>
             </div>
-
-        
           </div>
         </div>
       </div>
