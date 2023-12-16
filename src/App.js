@@ -1,5 +1,6 @@
 
 import './App.css';
+import Vendorlist from './Component/VendorList/Vendorlist';
 
 // import ProductDetails from './Component/ProductDetails/ProductDetails';
 // import Vendorlist from './Component/Vendor/Vendorlist';
@@ -9,7 +10,7 @@ import './App.css';
 // import ProductDetaills from "./Component/ProductDetaills/ProductDetaills";
 // import Vendordetaills from './Component/VendorDetaills/VendorDetaills';
 // import VendorDetaillls from './Component/VendorDetaillls/VendorDetaillls';
-import AddProduct from './Component/AddProduct/AddProduct';
+// import AddProduct from './Component/AddProduct/AddProduct';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     
     <div className="App">
    
-      {/* <Vendorlist/> size fix and navbar */}
+      <Vendorlist/> 
       {/* <ProductDetails/>  */}
       {/* <Vendordetails/>    */}
       {/* <Vendordetaills/>  */}
@@ -25,7 +26,7 @@ function App() {
       {/* <RooftopCalc/>   Size fix*/}
       {/* <ContentRouter/> */}
       {/* <ProductDetaills/> */}
-      <AddProduct/>
+      {/* <AddProduct/> */}
 
 
 
