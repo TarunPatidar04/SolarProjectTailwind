@@ -11,7 +11,7 @@ import './App.css';
 // import Vendordetaills from './Component/VendorDetaills/VendorDetaills';
 // import VendorDetaillls from './Component/VendorDetaillls/VendorDetaillls';
 import AddProduct from './Component/AddProduct/AddProduct';
-
+// import Revieww from "./Component/ReviewandRating/Revieww";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
       {/* <ContentRouter/> */}
       {/* <ProductDetaills/> */}
       <AddProduct/>
-
+{/* <Revieww/> */}
 
 
     </div>
