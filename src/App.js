@@ -10,8 +10,8 @@ import './App.css';
 // import ProductDetaills from "./Component/ProductDetaills/ProductDetaills";
 // import Vendordetaills from './Component/VendorDetaills/VendorDetaills';
 // import VendorDetaillls from './Component/VendorDetaillls/VendorDetaillls';
-import AddProduct from './Component/AddProduct/AddProduct';
-// import Revieww from "./Component/ReviewandRating/Revieww";
+// import AddProduct from './Component/AddProduct/AddProduct';
+import PreviousProduct from './Component/PreviousProduct/PreviousProduct';
 
 function App() {
   return (
@@ -26,8 +26,8 @@ function App() {
       {/* <RooftopCalc/>   Size fix*/}
       {/* <ContentRouter/> */}
       {/* <ProductDetaills/> */}
-      <AddProduct/>
-{/* <Revieww/> */}
+      {/* <AddProduct/> */}
+      <PreviousProduct/>
 
 
     </div>
