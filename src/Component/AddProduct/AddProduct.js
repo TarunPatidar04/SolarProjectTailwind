@@ -94,10 +94,10 @@ export default function AddProduct() {
                     <img
                       src={Rectangle}
                       alt=""
-                      className="xl2:max-w-[350px] lg:max-w-[300px]  md:max-w-[280px]  sm:max-w-[200px] m:max-w-[140px] s:max-w-[120px]"
+                      className="xl2:max-w-[350px] lg:max-w-[300px]  md:max-w-[280px]  sm:max-w-[220px] m:max-w-[200px] s:max-w-[170px]"
                     />
 
-                    <div className="imge flex gap-5  xl2:-ml-36 xl2:mt-8  lg:mt-8 md:mt-8  s:mt-8  s:ml-6">
+                    <div className="imge flex gap-5  xl2:-ml-36 xl2:mt-8 lg:-ml-6 lg:mt-8 md:mt-8  md:-ml-4 s:mt-8  s:ml-6 ">
                       <img
                         src={SRectangle}
                         alt=""
