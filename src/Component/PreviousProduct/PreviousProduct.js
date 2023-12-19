@@ -56,7 +56,7 @@ export default function PreviousProduct() {
 
         <div className="content h-full s:w-[100%] lg:w-[80%] xl2:w-[83%]">
           <div className="navbar md:w-[100%] s:h-14 md:h-20 bg-white flex justify-end items items-center gap-x-5">
-            <img className="md:w-10 md:h-12 s:w-12 s:h-10 md:block " alt="" />
+            <img className="md:w-6 md:h-auto s:w-6 s:h-auto md:block  " src={profile} alt="" />
             <span className=" md:block s:text-1xl md:text-sm">
               Dhanajay Raj
             </span>
@@ -350,13 +350,13 @@ export default function PreviousProduct() {
                       <li className="xl2:pl-8 lg:pl-7 md:pl-8 sm:pl-2 xl2:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[11px] s:text-[8px] m:text-[10px] ">
                         Product Name
                       </li>
-                      <li className="xl2:pl-24 lg:pl-4  md:pl-14 sm:ml-7 s:ml-6 m:ml-9">
+                      <li className="xl2:pl-24 lg:pl-4  md:pl-14 sm:ml-5 s:ml-4 m:ml-5">
                         {" "}
-                        <p className="bg-green-100 text-green-600 xl2:w-20 lg:w-16  p-1  xl2:text-[16px] md:text-[16px] sm:text-[10px] s:text-[8px] m:text-[10px]">
-                          InStock
+                        <p className="bg-pink-200 text-orange-600 xl2:w-28 md:w-28  p-1  xl2:text-[14px] md:text-[14px] sm:text-[10px] s:text-[8px] m:text-[10px]">
+                        Out Of Stock
                         </p>
                       </li>
-                      <li className="xl2:pl-24 lg:pl-16 md:pl-11 sm:pl-4 s:ml-6 m:ml-6 xl2:text-[16px] md:text-[16px] sm:text-[11px] s:text-[8px] m:text-[10px]">
+                      <li className="xl2:pl-20 lg:pl-11 md:pl-6 sm:pl-3 s:ml-3 m:ml-3 xl2:text-[16px] md:text-[16px] sm:text-[11px] s:text-[8px] m:text-[10px]">
                         10/09/2022
                       </li>
                       <ul className="flex xl2:pl-16 lg:pl-8 md:pl-9 sm:pl-0 s:ml-2 m:ml-2 xl2:text-[16px] md:text-[14px] lg:text-[15px] sm:text-[9px] s:text-[8px] m:text-[10px]">
