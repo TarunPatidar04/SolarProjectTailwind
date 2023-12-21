@@ -11,8 +11,8 @@ import "./App.css";
 // import VendorDetaillls from './Component/VendorDetaillls/VendorDetaillls';
 // import AddProduct from './Component/AddProduct/AddProduct';
 // import PreviousProduct from './Component/PreviousProduct/PreviousProduct';
-// import GreenCertificate from "./Component/GreenCertificate/GreenCertificate";
-import GreenCertificateView from "./Component/GreenCertificateView/GreenCertificateView";
+import GreenCertificate from "./Component/GreenCertificate/GreenCertificate";
+// import GreenCertificateView from "./Component/GreenCertificateView/GreenCertificateView";
 
 
 function App() {
@@ -28,8 +28,8 @@ function App() {
       {/* <ProductDetaills/> */}
       {/* <AddProduct/> */}
       {/* <PreviousProduct/> */}
-      {/* <GreenCertificate/> */}
-      <GreenCertificateView/>
+      <GreenCertificate/>
+      {/* <GreenCertificateView/> */}
     </div>
   );
 }
