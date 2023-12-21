@@ -18,7 +18,7 @@ export default function GreenCertificateView() {
       <div
         className={`sidebar s:absolute md:relative top-0 left-0 ${
           showSidebar ? "block" : "hidden"
-        } md:block lg:w-[15%] md:w-[17%] s:w-[40%] s:h-[70%] md:h-[100vh] m-2 z-40 s:bg-gray-100 md:bg-white`}
+        } md:block lg:w-[15%] md:w-[17%] s:w-[45%] s:h-[100%] md:h-[100vh] m-2 z-40 s:bg-gray-100 md:bg-white`}
       >
         <ul className="flex flex-col md:gap-y-5 s:gap-y-4  pt-28 pl-6 s:-mr-2  md:mr-4">
           <li className="md:-mb-2 items-center gap-x-2 s:-ml-3 md:flex  md:text-base s:text-sm font-semibold">
@@ -62,6 +62,9 @@ export default function GreenCertificateView() {
             />
             Green Certificate
           </li>
+          <li className="">
+            <p>&larr; Logout</p>
+          </li>
         </ul>
       </div>
 
@@ -77,14 +80,14 @@ export default function GreenCertificateView() {
               profile
             </span>
 
-            <span className=" md:ml-10 s:ml-10 md:mr-5 md:mt-2 s:mt-2 font-semibold">
+            <span className=" md:ml-10 s:ml-10 md:mr-5 md:mt-2 s:mt-2 font-semibold text-red-500">
               Logout
             </span>
           </div>
         </div>
 
-        <div className="bg-gray-400 p-3 min-h-screen">
-          <div className="bg-white h-[100vh]">
+        <div className="bg-gray-400 p-3 m:min-h-screen">
+          <div className="bg-white m:h-[100vh]">
             <div className="flex justify-start  ">
               <button
                 type="button"
@@ -134,6 +137,166 @@ export default function GreenCertificateView() {
                   </th>
                 </tr>
               </thead>
+              <tbody className="bg-white divide-y divide-gray-200">
+                <tr>
+                  <td className="lg:px-6 py-2 whitespace-nowrap">
+                    <div className="flex items-center">
+                      <div className="ml-0">
+                        <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
+                          Dhanajay Raj
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td className="lg:px-6 py-2 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    9649852659
+                  </td>
+                  <td className="lg:px-6 py-2 pl-3">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
+                      76, Janki Nagar Ext, Near Talent School
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-2  break-words ">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
+                      shanti@yahoo.com
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-2 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold s:py-1 s:px-1 md:py-1 md:px-2 ">
+                      View
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody className="bg-white divide-y divide-gray-200">
+                <tr>
+                  <td className="lg:px-6 py-2 whitespace-nowrap">
+                    <div className="flex items-center">
+                      <div className="ml-0">
+                        <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
+                          Dhanajay Raj
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td className="lg:px-6 py-2 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    9649852659
+                  </td>
+                  <td className="lg:px-6 py-2 pl-3">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
+                      76, Janki Nagar Ext, Near Talent School
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-2  break-words ">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
+                      shanti@yahoo.com
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-2 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold s:py-1 s:px-1 md:py-1 md:px-2 ">
+                      View
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody className="bg-white divide-y divide-gray-200">
+                <tr>
+                  <td className="lg:px-6 py-2 whitespace-nowrap">
+                    <div className="flex items-center">
+                      <div className="ml-0">
+                        <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
+                          Dhanajay Raj
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td className="lg:px-6 py-2 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    9649852659
+                  </td>
+                  <td className="lg:px-6 py-2 pl-3">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
+                      76, Janki Nagar Ext, Near Talent School
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-2  break-words ">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
+                      shanti@yahoo.com
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-2 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold s:py-1 s:px-1 md:py-1 md:px-2 ">
+                      View
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody className="bg-white divide-y divide-gray-200">
+                <tr>
+                  <td className="lg:px-6 py-2 whitespace-nowrap">
+                    <div className="flex items-center">
+                      <div className="ml-0">
+                        <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
+                          Dhanajay Raj
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td className="lg:px-6 py-2 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    9649852659
+                  </td>
+                  <td className="lg:px-6 py-2 pl-3">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
+                      76, Janki Nagar Ext, Near Talent School
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-2  break-words ">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
+                      shanti@yahoo.com
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-2 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold s:py-1 s:px-1 md:py-1 md:px-2 ">
+                      View
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody className="bg-white divide-y divide-gray-200">
+                <tr>
+                  <td className="lg:px-6 py-2 whitespace-nowrap">
+                    <div className="flex items-center">
+                      <div className="ml-0">
+                        <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
+                          Dhanajay Raj
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td className="lg:px-6 py-2 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    9649852659
+                  </td>
+                  <td className="lg:px-6 py-2 pl-3">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
+                      76, Janki Nagar Ext, Near Talent School
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-2  break-words ">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
+                      shanti@yahoo.com
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-2 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold s:py-1 s:px-1 md:py-1 md:px-2 ">
+                      View
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
               <tbody className="bg-white divide-y divide-gray-200">
                 <tr>
                   <td className="lg:px-6 py-2 whitespace-nowrap">

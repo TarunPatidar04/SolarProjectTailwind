@@ -77,7 +77,7 @@ export default function GreenCertificate() {
               profile
             </span>
 
-            <span className=" md:ml-10 s:ml-10 md:mr-5 md:mt-2 s:mt-2 font-semibold">
+            <span className=" md:ml-10 s:ml-10 md:mr-5 md:mt-2 s:mt-2 font-semibold text-red-500">
               Logout
             </span>
           </div>
