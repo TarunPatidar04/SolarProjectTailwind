@@ -4,7 +4,7 @@ import notificationVendor from "./Images/notificationVendor.png";
 import userEng from "./Images/userEng.png";
 import GreenCerti from "./Images/GreenCerti.png";
 
-export default function GreenCertificateView() {
+export default function GreenCertificate() {
   const [showSidebar, setShowSidebar] = useState(false);
   return (
     <div className="main flex -p-3">
@@ -18,7 +18,7 @@ export default function GreenCertificateView() {
       <div
         className={`sidebar s:absolute md:relative top-0 left-0 ${
           showSidebar ? "block" : "hidden"
-        } md:block lg:w-[15%] md:w-[17%] s:w-[45%] s:h-[100%] md:h-[100vh] m-2 z-40 s:bg-gray-100 md:bg-white`}
+        } md:block lg:w-[15%] md:w-[17%] s:w-[40%] s:h-[90%] md:h-[100vh] m-2 z-40 s:bg-gray-100 md:bg-white`}
       >
         <ul className="flex flex-col md:gap-y-5 s:gap-y-4  pt-28 pl-6 s:-mr-2  md:mr-4">
           <li className="md:-mb-2 items-center gap-x-2 s:-ml-3 md:flex  md:text-base s:text-sm font-semibold">
@@ -86,8 +86,8 @@ export default function GreenCertificateView() {
           </div>
         </div>
 
-        <div className="bg-gray-400 p-3 m:min-h-screen">
-          <div className="bg-white m:h-[100vh]">
+        <div className="bg-gray-400 p-3 ">
+          <div className="bg-white ">
             <div className="flex justify-start  ">
               <button
                 type="button"
@@ -102,7 +102,7 @@ export default function GreenCertificateView() {
               </div>
             </div>
 
-            <div className="m-6  flex  justify-center s:mt-5 md:mt-5 xl2:text-[16px] lg:text-[14px] md:text-[13px] s:text-[8px] m:text-[10px]">
+            <div className="m-6  flex  justify-center mt-0 xl2:text-[16px] lg:text-[14px] md:text-[13px] s:text-[8px] m:text-[10px]">
               <button class="bg-blue-300 text-left hover:bg-white mr-2 hover:text-bluee text-white font-bold py-1 px-3">
                 Approved
               </button>
@@ -126,7 +126,7 @@ export default function GreenCertificateView() {
                     Mobile No.
                   </th>
 
-                  <th className="lg:px-6 py-3 text-left md:text-xs font-medium sm:text-[10px] s:text-[9px] pl-3 text-gray-500 ">
+                  <th className="lg:px-6 py-3 text-left md:text-xs font-medium sm:text-[10px] s:text-[9px]  text-gray-500 ">
                     Register Address
                   </th>
                   <th className="lg:px-6  py-3 text-left md:text-xs font-medium sm:text-[10px] s:text-[9px] text-gray-500 ">
@@ -139,7 +139,7 @@ export default function GreenCertificateView() {
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
                 <tr>
-                  <td className="lg:px-6 py-2 whitespace-nowrap">
+                  <td className="lg:px-6 py-4 whitespace-nowrap">
                     <div className="flex items-center">
                       <div className="ml-0">
                         <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
@@ -149,21 +149,21 @@ export default function GreenCertificateView() {
                     </div>
                   </td>
 
-                  <td className="lg:px-6 py-2 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
-                    9649852659
+                  <td className="lg:px-6 py-4 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    96498526595
                   </td>
-                  <td className="lg:px-6 py-2 pl-3">
+                  <td className="lg:px-6 py-4 ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
                       76, Janki Nagar Ext, Near Talent School
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2  break-words ">
+                  <td className="lg:px-6 py-4  break-words ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
                       shanti@yahoo.com
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold s:py-1 s:px-1 md:py-1 md:px-2 ">
+                  <td className="lg:px-6 py-4 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold m:py-2 m:px-4 s:py-1 s:px-2 ">
                       View
                     </button>
                   </td>
@@ -171,7 +171,7 @@ export default function GreenCertificateView() {
               </tbody>
               <tbody className="bg-white divide-y divide-gray-200">
                 <tr>
-                  <td className="lg:px-6 py-2 whitespace-nowrap">
+                  <td className="lg:px-6 py-4 whitespace-nowrap">
                     <div className="flex items-center">
                       <div className="ml-0">
                         <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
@@ -181,21 +181,21 @@ export default function GreenCertificateView() {
                     </div>
                   </td>
 
-                  <td className="lg:px-6 py-2 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
-                    9649852659
+                  <td className="lg:px-6 py-4 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    96498526595
                   </td>
-                  <td className="lg:px-6 py-2 pl-3">
+                  <td className="lg:px-6 py-4 ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
                       76, Janki Nagar Ext, Near Talent School
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2  break-words ">
+                  <td className="lg:px-6 py-4  break-words ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
                       shanti@yahoo.com
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold s:py-1 s:px-1 md:py-1 md:px-2 ">
+                  <td className="lg:px-6 py-4 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold m:py-2 m:px-4 s:py-1 s:px-2 ">
                       View
                     </button>
                   </td>
@@ -203,7 +203,7 @@ export default function GreenCertificateView() {
               </tbody>
               <tbody className="bg-white divide-y divide-gray-200">
                 <tr>
-                  <td className="lg:px-6 py-2 whitespace-nowrap">
+                  <td className="lg:px-6 py-4 whitespace-nowrap">
                     <div className="flex items-center">
                       <div className="ml-0">
                         <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
@@ -213,21 +213,21 @@ export default function GreenCertificateView() {
                     </div>
                   </td>
 
-                  <td className="lg:px-6 py-2 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
-                    9649852659
+                  <td className="lg:px-6 py-4 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    96498526595
                   </td>
-                  <td className="lg:px-6 py-2 pl-3">
+                  <td className="lg:px-6 py-4 ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
                       76, Janki Nagar Ext, Near Talent School
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2  break-words ">
+                  <td className="lg:px-6 py-4  break-words ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
                       shanti@yahoo.com
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold s:py-1 s:px-1 md:py-1 md:px-2 ">
+                  <td className="lg:px-6 py-4 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold m:py-2 m:px-4 s:py-1 s:px-2 ">
                       View
                     </button>
                   </td>
@@ -235,7 +235,7 @@ export default function GreenCertificateView() {
               </tbody>
               <tbody className="bg-white divide-y divide-gray-200">
                 <tr>
-                  <td className="lg:px-6 py-2 whitespace-nowrap">
+                  <td className="lg:px-6 py-4 whitespace-nowrap">
                     <div className="flex items-center">
                       <div className="ml-0">
                         <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
@@ -245,21 +245,21 @@ export default function GreenCertificateView() {
                     </div>
                   </td>
 
-                  <td className="lg:px-6 py-2 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
-                    9649852659
+                  <td className="lg:px-6 py-4 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    96498526595
                   </td>
-                  <td className="lg:px-6 py-2 pl-3">
+                  <td className="lg:px-6 py-4 ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
                       76, Janki Nagar Ext, Near Talent School
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2  break-words ">
+                  <td className="lg:px-6 py-4  break-words ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
                       shanti@yahoo.com
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold s:py-1 s:px-1 md:py-1 md:px-2 ">
+                  <td className="lg:px-6 py-4 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold m:py-2 m:px-4 s:py-1 s:px-2 ">
                       View
                     </button>
                   </td>
@@ -267,7 +267,7 @@ export default function GreenCertificateView() {
               </tbody>
               <tbody className="bg-white divide-y divide-gray-200">
                 <tr>
-                  <td className="lg:px-6 py-2 whitespace-nowrap">
+                  <td className="lg:px-6 py-4 whitespace-nowrap">
                     <div className="flex items-center">
                       <div className="ml-0">
                         <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
@@ -277,21 +277,21 @@ export default function GreenCertificateView() {
                     </div>
                   </td>
 
-                  <td className="lg:px-6 py-2 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
-                    9649852659
+                  <td className="lg:px-6 py-4 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    96498526595
                   </td>
-                  <td className="lg:px-6 py-2 pl-3">
+                  <td className="lg:px-6 py-4 ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
                       76, Janki Nagar Ext, Near Talent School
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2  break-words ">
+                  <td className="lg:px-6 py-4  break-words ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
                       shanti@yahoo.com
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold s:py-1 s:px-1 md:py-1 md:px-2 ">
+                  <td className="lg:px-6 py-4 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold m:py-2 m:px-4 s:py-1 s:px-2 ">
                       View
                     </button>
                   </td>
@@ -299,7 +299,7 @@ export default function GreenCertificateView() {
               </tbody>
               <tbody className="bg-white divide-y divide-gray-200">
                 <tr>
-                  <td className="lg:px-6 py-2 whitespace-nowrap">
+                  <td className="lg:px-6 py-4 whitespace-nowrap">
                     <div className="flex items-center">
                       <div className="ml-0">
                         <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
@@ -309,21 +309,53 @@ export default function GreenCertificateView() {
                     </div>
                   </td>
 
-                  <td className="lg:px-6 py-2 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
-                    9649852659
+                  <td className="lg:px-6 py-4 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    96498526595
                   </td>
-                  <td className="lg:px-6 py-2 pl-3">
+                  <td className="lg:px-6 py-4 ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
                       76, Janki Nagar Ext, Near Talent School
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2  break-words ">
+                  <td className="lg:px-6 py-4  break-words ">
                     <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
                       shanti@yahoo.com
                     </div>
                   </td>
-                  <td className="lg:px-6 py-2 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold s:py-1 s:px-1 md:py-1 md:px-2 ">
+                  <td className="lg:px-6 py-4 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold m:py-2 m:px-4 s:py-1 s:px-2 ">
+                      View
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody className="bg-white divide-y divide-gray-200">
+                <tr>
+                  <td className="lg:px-6 py-4 whitespace-nowrap">
+                    <div className="flex items-center">
+                      <div className="ml-0">
+                        <div className="md:text-xs sm:text-[10px] s:text-[9px] font-medium text-gray-900">
+                          Dhanajay Raj
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td className="lg:px-6 py-4 whitespace-pre-wrap md:text-xs sm:text-[10px] s:text-[9px]  text-gray-500">
+                    96498526595
+                  </td>
+                  <td className="lg:px-6 py-4 ">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px] text-gray-900 whitespace-pre-wrap">
+                      76, Janki Nagar Ext, Near Talent School
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-4  break-words ">
+                    <div className="md:text-xs sm:text-[10px] s:text-[9px]  text-gray-900 ">
+                      shanti@yahoo.com
+                    </div>
+                  </td>
+                  <td className="lg:px-6 py-4 whitespace-nowrap  md:text-xs sm:text-[10px] s:text-[9px] font-medium">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold m:py-2 m:px-4 s:py-1 s:px-2 ">
                       View
                     </button>
                   </td>

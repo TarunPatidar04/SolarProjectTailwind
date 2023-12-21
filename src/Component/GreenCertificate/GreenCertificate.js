@@ -18,7 +18,7 @@ export default function GreenCertificate() {
       <div
         className={`sidebar s:absolute md:relative top-0 left-0 ${
           showSidebar ? "block" : "hidden"
-        } md:block lg:w-[15%] md:w-[17%] s:w-[40%] s:h-[70%] md:h-[100vh] m-2 z-40 s:bg-gray-100 md:bg-white`}
+        } md:block lg:w-[15%] md:w-[17%] s:w-[40%] s:h-[80%] md:h-[100vh] m-2 z-40 s:bg-gray-100 md:bg-white`}
       >
         <ul className="flex flex-col md:gap-y-5 s:gap-y-4  pt-28 pl-6 s:-mr-2  md:mr-4">
           <li className="md:-mb-2 items-center gap-x-2 s:-ml-3 md:flex  md:text-base s:text-sm font-semibold">
@@ -61,6 +61,9 @@ export default function GreenCertificate() {
               className=" s:w-4 s:opacity-50 md:opacity-100 bg-black"
             />
             Green Certificate
+          </li>
+          <li className="">
+            <p>&larr; Logout</p>
           </li>
         </ul>
       </div>
