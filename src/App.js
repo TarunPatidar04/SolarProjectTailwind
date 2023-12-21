@@ -1,5 +1,4 @@
-
-import './App.css';
+import "./App.css";
 // import Vendorlist from './Component/VendorList/Vendorlist';
 
 // import ProductDetails from './Component/ProductDetails/ProductDetails';
@@ -11,13 +10,14 @@ import './App.css';
 // import Vendordetaills from './Component/VendorDetaills/VendorDetaills';
 // import VendorDetaillls from './Component/VendorDetaillls/VendorDetaillls';
 // import AddProduct from './Component/AddProduct/AddProduct';
-import PreviousProduct from './Component/PreviousProduct/PreviousProduct';
+// import PreviousProduct from './Component/PreviousProduct/PreviousProduct';
+// import GreenCertificate from "./Component/GreenCertificate/GreenCertificate";
+import GreenCertificateView from "./Component/GreenCertificateView/GreenCertificateView";
+
 
 function App() {
   return (
-    
     <div className="App">
-   
       {/* <Vendorlist/>  */}
       {/* <ProductDetails/>  */}
       {/* <Vendordetails/>    */}
@@ -27,9 +27,9 @@ function App() {
       {/* <ContentRouter/> */}
       {/* <ProductDetaills/> */}
       {/* <AddProduct/> */}
-      <PreviousProduct/>
-
-
+      {/* <PreviousProduct/> */}
+      {/* <GreenCertificate/> */}
+      <GreenCertificateView/>
     </div>
   );
 }

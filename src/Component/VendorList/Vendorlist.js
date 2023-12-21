@@ -75,7 +75,7 @@ export default function Vendorlist() {
         </div>
 
         <div className="bg-gray-400 md:p-8 s:p-2 min-h-full ">
-          <div className="bg-white md:-mb-14  md:-mt-14 s:-mb-20  s:-mt-3 ">
+          <div className="bg-white xl2:mb-1 md:-mb-1  md:-mt-14 s:mb-1 h-[100vh] s:-mt-3 ">
             <div className="md:m-14 md:pt-4  s:m-4 s:pt-4 ">
               <div className="m-6  flex  justify-center mt-6 xl2:text-[16px] lg:text-[14px] md:text-[13px] s:text-[8px] m:text-[10px]">
                 <button class="bg-blue-300 text-left hover:bg-white mr-2 hover:text-bluee text-white font-bold py-1 px-3">
