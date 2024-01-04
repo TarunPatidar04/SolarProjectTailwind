@@ -16,7 +16,8 @@ import "./App.css";
 // import GreenCertificateView from "./Component/GreenCertificateView/GreenCertificateView";
 
 // import VendorCard from "./Component/VendorCard/VendorCard";
-import VendorCardDetail from "./Component/VendorCardDetail/VendorCardDetail";
+// import VendorCardDetail from "./Component/VendorCardDetail/VendorCardDetail";
+import VendorCardProduct from "./Component/VendorCardProduct/VendorCardProduct";
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <GreenCertificateView/> */}
       {/* <Monosi/> */}
       {/* <VendorCard/> */}
-      <VendorCardDetail/>
+      {/* <VendorCardDetail/> */}
+      <VendorCardProduct/>
     </div>
   );
 }
