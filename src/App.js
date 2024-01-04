@@ -1,4 +1,5 @@
 import "./App.css";
+// import Monosi from "./Component/MonoSI/Monosi";
 // import Vendorlist from './Component/VendorList/Vendorlist';
 
 // import ProductDetails from './Component/ProductDetails/ProductDetails';
@@ -12,8 +13,10 @@ import "./App.css";
 // import AddProduct from './Component/AddProduct/AddProduct';
 // import PreviousProduct from './Component/PreviousProduct/PreviousProduct';
 // import GreenCertificate from "./Component/GreenCertificate/GreenCertificate";
-import GreenCertificateView from "./Component/GreenCertificateView/GreenCertificateView";
+// import GreenCertificateView from "./Component/GreenCertificateView/GreenCertificateView";
 
+// import VendorCard from "./Component/VendorCard/VendorCard";
+import VendorCardDetail from "./Component/VendorCardDetail/VendorCardDetail";
 
 function App() {
   return (
@@ -29,7 +32,10 @@ function App() {
       {/* <AddProduct/> */}
       {/* <PreviousProduct/> */}
       {/* <GreenCertificate/> */}
-      <GreenCertificateView/>
+      {/* <GreenCertificateView/> */}
+      {/* <Monosi/> */}
+      {/* <VendorCard/> */}
+      <VendorCardDetail/>
     </div>
   );
 }
