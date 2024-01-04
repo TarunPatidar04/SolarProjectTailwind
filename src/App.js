@@ -1,5 +1,4 @@
 import "./App.css";
-// import Monosi from "./Component/MonoSI/Monosi";
 // import Vendorlist from './Component/VendorList/Vendorlist';
 
 // import ProductDetails from './Component/ProductDetails/ProductDetails';
@@ -17,7 +16,10 @@ import "./App.css";
 
 // import VendorCard from "./Component/VendorCard/VendorCard";
 // import VendorCardDetail from "./Component/VendorCardDetail/VendorCardDetail";
-import VendorCardProduct from "./Component/VendorCardProduct/VendorCardProduct";
+// import VendorCardProduct from "./Component/VendorCardProduct/VendorCardProduct";
+// import Monosi from "./Component/MonoSI/Monosi";
+import VendorMonoSI from "./Component/VendorMonoSI/VendorMonoSI";
+// import VendorMonoSIReview from "./Component/VendorMonoSIReview/VendorMonoSIReview";
 
 function App() {
   return (
@@ -37,7 +39,9 @@ function App() {
       {/* <Monosi/> */}
       {/* <VendorCard/> */}
       {/* <VendorCardDetail/> */}
-      <VendorCardProduct/>
+      {/* <VendorCardProduct/> */}
+      <VendorMonoSI/>
+      {/* <VendorMonoSIReview/> */}
     </div>
   );
 }
