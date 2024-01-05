@@ -37,17 +37,17 @@ export default function VendorMonoSIReview() {
               </h1>
             </div>
             <div className="Details s:-mt-10 md:mt-0">
-            <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+            <div className="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
 
                 <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
+                  <p className="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">
@@ -64,15 +64,15 @@ export default function VendorMonoSIReview() {
                 </div>
               </div>
 
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
+                  <p className="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">
@@ -89,15 +89,15 @@ export default function VendorMonoSIReview() {
                 </div>
               </div>
 
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
+                  <p className="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">
@@ -114,118 +114,15 @@ export default function VendorMonoSIReview() {
                 </div>
               </div>
 
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
+                  <p className="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
-                    Find the right products that fits your budget and needs.
-                  </p>
-                  <div className="flex">
-                    {" "}
-                    <img
-                      src={star}
-                      alt=""
-                      className="max-w-[100px] mb-2 "
-                    />{" "}
-                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
-                  </div>
-                  <span className="font-bold">₹29,900</span>
-                  <span className="text-[13px]">(GST inclusive price)</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
-                  <img src={mono} alt="" className="" />
-                </div>
-
-                <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
-                    Monocrystalline Solar Panels (Mono-SI)
-                  </p>
-                  <p class="py-2 text-[13px] ">
-                    Find the right products that fits your budget and needs.
-                  </p>
-                  <div className="flex">
-                    {" "}
-                    <img
-                      src={star}
-                      alt=""
-                      className="max-w-[100px] mb-2 "
-                    />{" "}
-                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
-                  </div>
-                  <span className="font-bold">₹29,900</span>
-                  <span className="text-[13px]">(GST inclusive price)</span>
-                </div>
-              </div>
-
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
-                  <img src={mono} alt="" className="" />
-                </div>
-                <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
-                    Monocrystalline Solar Panels (Mono-SI)
-                  </p>
-                  <p class="py-2 text-[13px] ">
-                    Find the right products that fits your budget and needs.
-                  </p>
-                  <div className="flex">
-                    {" "}
-                    <img
-                      src={star}
-                      alt=""
-                      className="max-w-[100px] mb-2 "
-                    />{" "}
-                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
-                  </div>
-                  <span className="font-bold">₹29,900</span>
-                  <span className="text-[13px]">(GST inclusive price)</span>
-                </div>
-              </div>
-
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
-                  <img src={mono} alt="" className="" />
-                </div>
-                <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
-                    Monocrystalline Solar Panels (Mono-SI)
-                  </p>
-                  <p class="py-2 text-[13px] ">
-                    Find the right products that fits your budget and needs.
-                  </p>
-                  <div className="flex">
-                    {" "}
-                    <img
-                      src={star}
-                      alt=""
-                      className="max-w-[100px] mb-2 "
-                    />{" "}
-                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
-                  </div>
-                  <span className="font-bold">₹29,900</span>
-                  <span className="text-[13px]">(GST inclusive price)</span>
-                </div>
-              </div>
-
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
-                  <img src={mono} alt="" className="" />
-                </div>
-                <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
-                    Monocrystalline Solar Panels (Mono-SI)
-                  </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">
@@ -243,17 +140,17 @@ export default function VendorMonoSIReview() {
               </div>
             </div>
 
-            <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+            <div className="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
 
                 <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
+                  <p className="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">
@@ -270,15 +167,15 @@ export default function VendorMonoSIReview() {
                 </div>
               </div>
 
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
+                  <p className="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">
@@ -295,15 +192,15 @@ export default function VendorMonoSIReview() {
                 </div>
               </div>
 
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
                   <p class="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">
@@ -320,15 +217,15 @@ export default function VendorMonoSIReview() {
                 </div>
               </div>
 
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
+                  <p className="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">
@@ -346,17 +243,17 @@ export default function VendorMonoSIReview() {
               </div>
             </div>
 
-            <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+            <div className="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
 
                 <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
+                  <p className="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">
@@ -373,15 +270,15 @@ export default function VendorMonoSIReview() {
                 </div>
               </div>
 
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
+                  <p className="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">
@@ -398,15 +295,15 @@ export default function VendorMonoSIReview() {
                 </div>
               </div>
 
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
+                  <p className="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">
@@ -423,15 +320,118 @@ export default function VendorMonoSIReview() {
                 </div>
               </div>
 
-              <div class="text-center shadow-lg rounded mb-6">
-                <div class="overflow-hidden">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
                   <img src={mono} alt="" className="" />
                 </div>
                 <div className="text-left m-3">
-                  <p class="py-2 font-bold text-[20px] ">
+                  <p className="py-2 font-bold text-[20px] ">
                     Monocrystalline Solar Panels (Mono-SI)
                   </p>
-                  <p class="py-2 text-[13px] ">
+                  <p className="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
+                  <img src={mono} alt="" className="" />
+                </div>
+
+                <div className="text-left m-3">
+                  <p className="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p className="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
+                </div>
+              </div>
+
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
+                  <img src={mono} alt="" className="" />
+                </div>
+                <div className="text-left m-3">
+                  <p className="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p className="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
+                </div>
+              </div>
+
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
+                  <img src={mono} alt="" className="" />
+                </div>
+                <div className="text-left m-3">
+                  <p className="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p className="py-2 text-[13px] ">
+                    Find the right products that fits your budget and needs.
+                  </p>
+                  <div className="flex">
+                    {" "}
+                    <img
+                      src={star}
+                      alt=""
+                      className="max-w-[100px] mb-2 "
+                    />{" "}
+                    <span className="ml-2 text-bluee font-bold">11018</span>{" "}
+                  </div>
+                  <span className="font-bold">₹29,900</span>
+                  <span className="text-[13px]">(GST inclusive price)</span>
+                </div>
+              </div>
+
+              <div className="text-center shadow-lg rounded mb-6">
+                <div className="overflow-hidden">
+                  <img src={mono} alt="" className="" />
+                </div>
+                <div className="text-left m-3">
+                  <p className="py-2 font-bold text-[20px] ">
+                    Monocrystalline Solar Panels (Mono-SI)
+                  </p>
+                  <p className="py-2 text-[13px] ">
                     Find the right products that fits your budget and needs.
                   </p>
                   <div className="flex">

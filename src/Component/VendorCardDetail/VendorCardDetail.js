@@ -214,17 +214,17 @@ export default function VendorCardDetail() {
                   </div>
                 </div>
 
-                <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
-                  <div class="text-center shadow-lg rounded mb-5">
-                    <div class="overflow-hidden">
-                      <img src={mono} alt="" className="" />
+                <div className="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-12 mr-5 ml-5 px-19 ">
+                  <div className="text-center shadow-lg rounded mb-5">
+                    <div className="overflow-hidden">
+                      <img src={mono} alt="" />
                     </div>
 
                     <div className="text-left m-3">
-                      <p class="py-2 font-bold md:text-[20px] lg:text-[16px] s:text-[16px] xl2:text-[20px] ">
+                      <p className="py-2 font-bold md:text-[20px] lg:text-[16px] s:text-[16px] xl2:text-[20px] ">
                         Monocrystalline Solar Panels (Mono-SI)
                       </p>
-                      <p class="md:py-2 s:py-1 md:text-[13px] s:text-[11px] lg:text-[12px] xl2:text-[13px]">
+                      <p className="md:py-2 s:py-1 md:text-[13px] s:text-[11px] lg:text-[12px] xl2:text-[13px]">
                         Find the right products that fits your budget and needs.
                       </p>
                       <div className="flex">
@@ -247,16 +247,16 @@ export default function VendorCardDetail() {
                     </div>
                   </div>
 
-                  <div class="text-center shadow-lg rounded mb-5">
-                    <div class="overflow-hidden">
+                  <div className="text-center shadow-lg rounded mb-5">
+                    <div className="overflow-hidden">
                       <img src={mono} alt="" className="" />
                     </div>
 
                     <div className="text-left m-3">
-                      <p class="py-2 font-bold md:text-[20px] lg:text-[16px] s:text-[16px] xl2:text-[20px] ">
+                      <p className="py-2 font-bold md:text-[20px] lg:text-[16px] s:text-[16px] xl2:text-[20px] ">
                         Monocrystalline Solar Panels (Mono-SI)
                       </p>
-                      <p class="md:py-2 s:py-1 md:text-[13px] s:text-[11px] lg:text-[12px] xl2:text-[13px]">
+                      <p className="md:py-2 s:py-1 md:text-[13px] s:text-[11px] lg:text-[12px] xl2:text-[13px]">
                         Find the right products that fits your budget and needs.
                       </p>
                       <div className="flex">
@@ -279,16 +279,16 @@ export default function VendorCardDetail() {
                     </div>
                   </div>
 
-                 <div class="text-center shadow-lg rounded mb-5">
-                    <div class="overflow-hidden">
+                 <div className="text-center shadow-lg rounded mb-5">
+                    <div className="overflow-hidden">
                       <img src={mono} alt="" className="" />
                     </div>
 
                     <div className="text-left m-3">
-                      <p class="py-2 font-bold md:text-[20px] lg:text-[16px] s:text-[16px] xl2:text-[20px] ">
+                      <p className="py-2 font-bold md:text-[20px] lg:text-[16px] s:text-[16px] xl2:text-[20px] ">
                         Monocrystalline Solar Panels (Mono-SI)
                       </p>
-                      <p class="md:py-2 s:py-1 md:text-[13px] s:text-[11px] lg:text-[12px] xl2:text-[13px]">
+                      <p className="md:py-2 s:py-1 md:text-[13px] s:text-[11px] lg:text-[12px] xl2:text-[13px]">
                         Find the right products that fits your budget and needs.
                       </p>
                       <div className="flex">
@@ -311,16 +311,16 @@ export default function VendorCardDetail() {
                     </div>
                   </div>
 
-                  <div class="text-center shadow-lg rounded mb-5">
-                    <div class="overflow-hidden">
+                  <div className="text-center shadow-lg rounded mb-5">
+                    <div className="overflow-hidden">
                       <img src={mono} alt="" className="" />
                     </div>
 
                     <div className="text-left m-3">
-                      <p class="py-2 font-bold md:text-[20px] s:text-[16px]  ">
+                      <p className="py-2 font-bold md:text-[20px] lg:text-[16px] s:text-[16px] xl2:text-[20px] ">
                         Monocrystalline Solar Panels (Mono-SI)
                       </p>
-                      <p class="md:py-2 s:py-1 md:text-[13px] s:text-[11px]">
+                      <p className="md:py-2 s:py-1 md:text-[13px] s:text-[11px] lg:text-[12px] xl2:text-[13px]">
                         Find the right products that fits your budget and needs.
                       </p>
                       <div className="flex">
@@ -330,14 +330,14 @@ export default function VendorCardDetail() {
                           alt=""
                           className="md:max-w-[100px] s:max-w-[80px] md:mb-2 s:mb-2 "
                         />{" "}
-                        <span className="ml-2 text-bluee font-bold md:text-[16px] s:text-[12px]">
+                        <span className="ml-2 text-bluee font-bold md:text-[16px] s:text-[12px] lg:text-[13px] xl2:text-[16px]">
                           11018
                         </span>{" "}
                       </div>
-                      <span className="font-bold md:text-[16px] s:text-[12px] ">
+                      <span className="font-bold md:text-[16px] s:text-[12px] lg:text-[14px] xl2:text-[16px]">
                         ₹29,900
                       </span>
-                      <span className="md:text-[13px] s:text-[10px]">
+                      <span className="md:text-[13px] s:text-[10px] lg:text-[14px] xl2:text-[13px]">
                         (GST inclusive price)
                       </span>
                     </div>
