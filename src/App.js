@@ -15,11 +15,11 @@ import "./App.css";
 // import GreenCertificateView from "./Component/GreenCertificateView/GreenCertificateView";
 
 // import VendorCard from "./Component/VendorCard/VendorCard";
-// import VendorCardDetail from "./Component/VendorCardDetail/VendorCardDetail";
+import VendorCardDetail from "./Component/VendorCardDetail/VendorCardDetail";
 // import VendorCardProduct from "./Component/VendorCardProduct/VendorCardProduct";
 // import Monosi from "./Component/MonoSI/Monosi";
 // import VendorMonoSI from "./Component/VendorMonoSI/VendorMonoSI";
-import VendorMonoSIReview from "./Component/VendorMonoSIReview/VendorMonoSIReview";
+// import VendorMonoSIReview from "./Component/VendorMonoSIReview/VendorMonoSIReview";
 
 function App() {
   return (
@@ -38,10 +38,10 @@ function App() {
       {/* <GreenCertificateView/> */}
       {/* <Monosi/> */}
       {/* <VendorCard/> */}
-      {/* <VendorCardDetail/> */}
+      <VendorCardDetail/>
       {/* <VendorCardProduct/> */}
       {/* <VendorMonoSI/> */}
-      <VendorMonoSIReview/>
+      {/* <VendorMonoSIReview/> */}
     </div>
   );
 }
