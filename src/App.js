@@ -18,8 +18,8 @@ import "./App.css";
 // import VendorCardDetail from "./Component/VendorCardDetail/VendorCardDetail";
 // import VendorCardProduct from "./Component/VendorCardProduct/VendorCardProduct";
 // import Monosi from "./Component/MonoSI/Monosi";
-import VendorMonoSI from "./Component/VendorMonoSI/VendorMonoSI";
-// import VendorMonoSIReview from "./Component/VendorMonoSIReview/VendorMonoSIReview";
+// import VendorMonoSI from "./Component/VendorMonoSI/VendorMonoSI";
+import VendorMonoSIReview from "./Component/VendorMonoSIReview/VendorMonoSIReview";
 
 function App() {
   return (
@@ -40,8 +40,8 @@ function App() {
       {/* <VendorCard/> */}
       {/* <VendorCardDetail/> */}
       {/* <VendorCardProduct/> */}
-      <VendorMonoSI/>
-      {/* <VendorMonoSIReview/> */}
+      {/* <VendorMonoSI/> */}
+      <VendorMonoSIReview/>
     </div>
   );
 }

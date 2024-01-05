@@ -19,17 +19,16 @@ import Original from "../VendorMonoSI/Images/Original.png";
 export default function VendorMonoSI() {
   return (
     <main className="bg-[#8A8F93] w-full h-auto mb-10">
-      <nav className="bg-white w-full h-[15%]">
-        <div className="flex gap-x-10 justify-center items-center ">
-          <img src={nav1} alt="" className="w-[70px]" />
-          <img src={nav2} alt="" className="w-[90px] h-auto" />
-          <img src={nav3} alt="" className="w-[250px]" />
-          <img src={nav4} alt="" className="w-[90px]" />
-          <img src={nav5} alt="" className="w-[80px]" />
-          <img src={nav6} alt="" className="w-[180px] h-[25px]" />
-          <img src={nav7} alt="" className="w-[80px]" />
-
-          <button className="text-red-600  font-semibold ">Log Out</button>
+     <nav className="bg-white w-full md:h-[15%] s:h-[15%] md:p-2 s:py-1">
+        <div className="flex lg:gap-x-10 md:gap-x-7 s:gap-x-1.5 justify-center items-center ">
+          <img src={nav1} alt="" className="w-[6%] " />
+          <img src={nav2} alt="" className="w-[7%]" />
+          <img src={nav3} alt="" className="w-[16%]" />
+          <img src={nav4} alt="" className="w-[8%]" />
+          <img src={nav5} alt="" className="w-[7%]" />
+          <img src={nav6} alt="" className="w-[13%]" />
+          <img src={nav7} alt="" className="w-[7%]" />
+          <button className="text-red-600 font-semibold md:text-[14px] s:text-[0.5rem]">Log Out</button>
         </div>
       </nav>
 
@@ -37,31 +36,33 @@ export default function VendorMonoSI() {
         <div className="bg-white w-[85%]  mx-auto my-8">
           <div>
             <div className="p-8">
-              <h1 className="text-xl font-semibold text-bluee">
+              <h1 className="s:text-[14px] md:text-[16px] lg:text-xl font-semibold text-bluee">
                 Monocrystalline Solar Panels (Mono-SI)
               </h1>
             </div>
             <div className="Details">
-              <div className="first-column m-14 grid grid-cols-2  ">
-                <div className="image-section ">
-                  <img src={Solar1} alt="" className="w-[350px]" />
-                  <div className="threeImage flex gap-x-5 ml-4 mt-5">
-                    <img src={Solar2} alt="" className="w-[100px]" />
-                    <img src={Solar3} alt="" className="w-[100px]" />
-                    <img src={Solar4} alt="" className="w-[100px]" />
+              <div className="first-column md:m-14 s:m-2 md:grid md:grid-cols-2  ">
+                <div className="image-section s:ml-6  md:ml-0">
+                  <img src={Solar1} alt="" className="w-[70%]" />
+                <div>
+                <div className="threeImage flex justify-stretch gap-x-4 mt-5">
+                    <img src={Solar2} alt="" className="w-[20%]" />
+                    <img src={Solar3} alt="" className="w-[20%]" />
+                    <img src={Solar4} alt="" className="w-[20%]" />
                   </div>
                 </div>
-                <div className="text-section -ml-32 mt-14">
-                  <div className="  w-full    ">
-                    <p className="text-bluue  text-xl font-bold">
+                </div>
+                <div className="text-section  mt-14 lg:text-[16px] md:text-[14px] s:text-[12px]">
+                  <div className="  w-[100%]    ">
+                    <p className="text-bluue  md:text-[16px] lg:text-xl font-bold">
                       {" "}
                       Monocrystalline Solar Panels (Mono-SI)
                     </p>
-                    <p className="font-semibold">
+                    <p className="font-semibold s:text-[12px] md:text-[0.8rem] lg:text-[0.9rem]">
                       <span className="text-[#000000]  ">By</span>{" "}
                       <span className="text-[#E87800]">LUMINUS</span>
                     </p>
-                    <p className="text-lg">
+                    <p className="md:text-[16px] lg:text-lg">
                       After installation of net meter and inspection by{" "}
                       <span className="text-bluue  font-semibold ">
                         Gov of India
@@ -71,7 +72,7 @@ export default function VendorMonoSI() {
 
                     <p className="font-semibold text-[#000000] ">Features</p>
 
-                    <ul className=" ">
+                    <ul className=" lg:text-[16px] md:text-[14px]">
                       <li className="">
                         <span className="inline-block w-2 h-2  bg-gray-500 rounded-full  "></span>
                         <span className="ml-2"> Brand Name : </span>
@@ -110,34 +111,34 @@ export default function VendorMonoSI() {
                       </li>
                     </ul>
 
-                    <button className="bg-gray-200 p-3 rounded border-2 border-gray-300 mt-10">
+                    <button className="bg-gray-200 md:p-2  s:p-1 rounded border-2 border-gray-300 mt-10 w-[40%] s:text-[10px] md:text-[12px]">
                       MORE DETAILS
                     </button>
                   </div>
                 </div>
               </div>
               <hr className="border border-b-4  max-w-full" />
-              <div className=" Second-column mt-10 ml-16 flex gap-x-16  ">
-                <img src={Original} alt="" className="w-[230px] h-[200px]" />
-                <img src={Money} alt="" className="w-[230px] h-[200px]" />
-                <img src={Protection} alt="" className="w-[230px] h-[200px]" />
-                <img src={Warranty} alt="" className="w-[230px] h-[215px]" />
+              <div className=" Second-column mt-10  flex justify-evenly mx-auto  mb-3">
+                <img src={Original} alt="" className="w-[20%] h-auto" />
+                <img src={Money} alt="" className="w-[20%] h-auto" />
+                <img src={Protection} alt="" className="w-[20%] h-auto" />
+                <img src={Warranty} alt="" className="w-[20%] h-auto -mb-3 " />
               </div>
 
               <hr className="border border-b-4  max-w-full" />
 
-              <div className="Third-Column m-14">
-                <div className="button-section ">
-                  <button className="bg-gray-300 p-4 border-2 border-gray-400 rounded">
+              <div className="Third-Column md:m-14 s:m-2">
+                <div className="button-section w-[40%] s:text-[10px] md:text-[14px] lg:text-[16px]">
+                  <button className="bg-gray-300 md:p-3 s:p-1 border-2 border-gray-400 rounded">
                     DESCRIPTION
                   </button>
-                  <button className="bg-gray-300 p-4 border-2 border-gray-400 rounded">
+                  <button className="bg-gray-300 md:p-3 s:p-1 border-2 border-gray-400 rounded">
                     SPECIFICATION
                   </button>
                 </div>
 
-                <div className="text-section ">
-                  <p className="mt-16">
+                <div className="text-section  s:text-[12px] md:text-[14px] lg:text-[16px]">
+                  <p className="md:mt-16 s:mt-5">
                     Dumy text W Mono PERC Half Cut Solar Panel is a type of
                     photovoltaic (PV) panel that combines two key technologies:
                     monocrystalline cells and PERC cell design. It is an
@@ -211,19 +212,19 @@ export default function VendorMonoSI() {
               <hr className="border border-b-4  max-w-full mb-4" />
               <hr className="border border-b-4  max-w-full" />
 
-              <div className="fourth-column m-14">
-                <div className=" md:ml-3 s:ml-5 s:mt-5 md:mt-3 s:mb-3">
-                  <p className="flex md:text-lg font-semibold s:text-2xl xl2:text-2xl justify-between">
+              <div className="fourth-column  md:m-14 s:m-2">
+                <div className=" md:ml-3  s:mt-5 md:mt-3 s:mb-3">
+                  <p className="flex  font-semibold s:text-[12px] md:text-[16px] lg:text-lg xl2:text-xl justify-between">
                     <p>Rating</p>
-                    <p className="">
+                    <p className="s:ml-14">
                       Review
                       <p>
-                        45461 <span className="text-sm">global ratings</span>
+                        45461 <span className="s:text-[12px] md:text-[16px] lg:text-lg">global ratings</span>
                       </p>
                     </p>
                   </p>
 
-                  <div className="flex items-center md:mt-8 s:mt-5 md:ml-auto mb-4">
+                  <div className="flex items-center md:mt-8 s:mt-1 s:ml-10 xl2:ml-14 md:ml-16 lg:ml-12 mb-4 s:w-[70%] md:w-[100%] ">
                     <svg
                       className="md:w-4 md:h-4 xl2:w-7 xl2:h-7 s:w-6 s:h-6 text-yellow-300 me-1"
                       aria-hidden="true"
@@ -269,23 +270,26 @@ export default function VendorMonoSI() {
                     >
                       <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                     </svg>
-                    <p className="md:ms-1 md:text-sm s:text-1xl xl2:text-lg font-medium ml-3">
+                    <p className="md:ms-1 s:text-[8px] md:text-[14px] lg:text-[1rem] font-medium s:ml-1 md:ml-3">
                       4
                     </p>
-                    <p className="md:ms-1 md:text-sm s:text-1xl xl2:text-lg font-medium s:ml-2">
+                    <p className="md:ms-1 s:text-[8px] md:text-[14px] lg:text-[1rem] font-medium s:ml-1">
                       out of
                     </p>
-                    <p className="md:ms-1 md:text-sm s:text-1xl xl2:text-lg font-medium s:ml-2">
+                    <p className="md:ms-1 s:text-[8px] md:text-[14px] lg:text-[1rem] font-medium s:ml-1">
                       5
                     </p>
-                    <p className="md:text-sm s:text-base xl2:text-lg s:mt-8 md:mt-auto ml-48">
+                    <p className="s:text-[8px] md:text-[0.7rem] lg:text-[1rem] s:mt-8 md:mt-auto xl2:ml-40 lg:ml-14 s:ml-2">
                       200021 global likes
                     </p>
                   </div>
-                  <div className="flex items-center md:mt-6 s:mt-10">
+
+
+                  
+                  <div className="flex items-center md:mt-6 s:mt-1 s:ml-3 md:ml-0">
                     <a
                       href="##"
-                      className="md:text-sm s:text-lg s:-mt-1 md:mt-auto xl2:text-lg font-medium text-[#235688]"
+                      className="md:text-sm s:text-[10px] s:-mt-1 md:mt-auto xl2:text-lg font-medium text-[#235688]"
                     >
                       5 star
                     </a>
@@ -295,14 +299,14 @@ export default function VendorMonoSI() {
                         style={{ width: "60%" }}
                       ></div>
                     </div>
-                    <span className="md:text-sm s:text-lg s:-mt-1 xl2:text-lg md:mt-auto font-medium text-[#235688]">
+                    <span className="md:text-sm s:text-[10px] s:-mt-1 xl2:text-lg md:mt-auto font-medium text-[#235688]">
                       60%
                     </span>
                   </div>
-                  <div className="flex items-center md:mt-3 s:mt-10">
+                  <div className="flex items-center md:mt-3 s:mt-5 s:ml-3 md:ml-0">
                     <a
                       href="##"
-                      className="md:text-sm s:text-lg s:-mt-1 md:mt-auto xl2:text-lg font-medium text-[#235688]"
+                      className="md:text-sm s:text-[10px] s:-mt-1 md:mt-auto xl2:text-lg font-medium text-[#235688]"
                     >
                       4 star
                     </a>
@@ -312,14 +316,14 @@ export default function VendorMonoSI() {
                         style={{ width: "20%" }}
                       ></div>
                     </div>
-                    <span className="md:text-sm s:text-lg s:-mt-1 xl2:text-lg md:mt-auto font-medium text-[#235688]">
+                    <span className="md:text-sm s:text-[10px] s:-mt-1 xl2:text-lg md:mt-auto font-medium text-[#235688]">
                       20%
                     </span>
                   </div>
-                  <div className="flex items-center md:mt-3 s:mt-10">
+                  <div className="flex items-center md:mt-3 s:mt-5 s:ml-3 md:ml-0">
                     <a
                       href="##"
-                      className="md:text-sm s:text-lg s:-mt-1 md:mt-auto xl2:text-lg font-medium text-[#235688]"
+                      className="md:text-sm s:text-[10px] s:-mt-1 md:mt-auto xl2:text-lg font-medium text-[#235688]"
                     >
                       3 star
                     </a>
@@ -329,14 +333,14 @@ export default function VendorMonoSI() {
                         style={{ width: "70%" }}
                       ></div>
                     </div>
-                    <span className="md:text-sm s:text-lg s:-mt-1 xl2:text-lg md:mt-auto font-medium text-[#235688]">
+                    <span className="md:text-sm s:text-[10px] s:-mt-1 xl2:text-lg md:mt-auto font-medium text-[#235688]">
                       70%
                     </span>
                   </div>
-                  <div className="flex items-center md:mt-3 s:mt-10">
+                  <div className="flex items-center md:mt-3 s:mt-5 s:ml-3 md:ml-0">
                     <a
                       href="##"
-                      className="md:text-sm s:text-lg s:-mt-1 md:mt-auto xl2:text-lg font-medium text-[#235688]"
+                      className="md:text-sm s:text-[10px] s:-mt-1 md:mt-auto xl2:text-lg font-medium text-[#235688]"
                     >
                       2 star
                     </a>
@@ -346,14 +350,14 @@ export default function VendorMonoSI() {
                         style={{ width: "30%" }}
                       ></div>
                     </div>
-                    <span className="md:text-sm s:text-lg s:-mt-1 xl2:text-lg md:mt-auto font-medium text-[#235688]">
+                    <span className="md:text-sm s:text-[10px] s:-mt-1 xl2:text-lg md:mt-auto font-medium text-[#235688]">
                       30%
                     </span>
                   </div>
-                  <div className="flex items-center md:mt-3 s:mt-10">
+                  <div className="flex items-center md:mt-3 s:mt-5 s:ml-3 md:ml-0">
                     <a
                       href="##"
-                      className="md:text-sm s:text-lg s:-mt-1 md:mt-auto xl2:text-lg font-medium text-[#235688]"
+                      className="md:text-sm s:text-[10px] s:-mt-1 md:mt-auto xl2:text-lg font-medium text-[#235688]"
                     >
                       1 star
                     </a>
@@ -363,15 +367,15 @@ export default function VendorMonoSI() {
                         style={{ width: "9%" }}
                       ></div>
                     </div>
-                    <span className="md:text-sm s:text-lg s:-mt-1 xl2:text-lg md:mt-auto font-medium text-[#235688]">
+                    <span className="md:text-sm s:text-[10px] s:-mt-1 xl2:text-lg md:mt-auto font-medium text-[#235688]">
                       9%
                     </span>
                   </div>
                 </div>
               </div>
 
-              <div className="sixth-section m-14 ">
-                <p className="md:text-lg font-semibold s:text-2xl xl2:text-2xl mb-10 flex gap-11">
+              <div className="sixth-section md:m-14 s:m-2 ">
+                <p className="md:text-lg font-semibold s:text-[12px]  md:text-[14px]   xl2:text-xl mb-10 flex gap-11">
                   <p className=" hover:border-b-2 border-b-2 border-black hover:border-black  cursor-pointer">
                     Review
                   </p>{" "}
@@ -379,606 +383,85 @@ export default function VendorMonoSI() {
                     Rating
                   </p>
                 </p>
-                <hr className="border border-b-2 -mt-10 mb-10  max-w-full" />
+                <hr className="border border-b-2 -mt-10 md:mb-10 s:mb-5  max-w-full" />
 
-                <div className="max-h-[470px] overflow-y-auto">
-                  <div className="flex   bg-gray-100  p-5">
-                    <div className="w-16 h-16">
+                <div className="max-h-[40%]  w-[100%] overflow-y-auto s:text-[12px]  md:text-sm ">
+                  <div className="md:flex  bg-gray-100 mt-3 p-5 ">
+                    <div className="md:w-16 md:h-16 s:w-[30%] rounded s:mx-auto md:mx-0">
                       <img
-                        className="object-cover w-full h-full"
+                        className="object-cover md:w-full md:h-full"
                         src={Person}
                         alt=""
                       />
                     </div>
-                    <div className=" ml-8 ">
-                      <div className="flex">
+                    <div className=" md:ml-8 s:mt-5 md:-0 ">
+                      <div className="md:flex">
                         <p className="text-[#233965] font-semibold ">
                           Dhanajaysagar145@gmail.com
                         </p>{" "}
-                        <span className="ml-4">10 days ago</span>
+                        <span className="md:ml-4">10 days ago</span>
                       </div>
-                      <p className="mt-2">
+                      <p className="md:mt-2 s:mt-1">
                         I hope this message finds you well. I am writing to
                         kindly request your assistance
                       </p>
-                      <div className="flex  mt-2">
-                        <div className="flex items-center space-x-1 ">
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-gray-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                        </div>
-                        <p className="text-gray-400 font-semibold text-lg ml-10 ">
-                          Reply
-                        </p>
-                      </div>
                     </div>
                   </div>
-                  <div className="flex  mt-8   bg-gray-100  p-5">
-                    <div className="w-16 h-16">
+                  <div className="md:flex  bg-gray-100 mt-3 p-5 ">
+                    <div className="md:w-16 md:h-16 s:w-[30%] rounded s:mx-auto md:mx-0">
                       <img
-                        className="object-cover w-full h-full"
+                        className="object-cover md:w-full md:h-full"
                         src={Person}
                         alt=""
                       />
                     </div>
-                    <div className=" ml-8 ">
-                      <div className="flex">
+                    <div className=" md:ml-8 s:mt-5 md:-0 ">
+                      <div className="md:flex">
                         <p className="text-[#233965] font-semibold ">
                           Dhanajaysagar145@gmail.com
                         </p>{" "}
-                        <span className="ml-4">10 days ago</span>
+                        <span className="md:ml-4">10 days ago</span>
                       </div>
-                      <p className="mt-2">
+                      <p className="md:mt-2 s:mt-1">
                         I hope this message finds you well. I am writing to
                         kindly request your assistance
                       </p>
-                      <div className="flex  mt-2">
-                        <div className="flex items-center space-x-1 ">
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-gray-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                        </div>
-                        <p className="text-gray-400 font-semibold text-lg ml-10 ">
-                          Reply
-                        </p>
-                      </div>
                     </div>
                   </div>
-                  <div className="flex  mt-8   bg-gray-100  p-5">
-                    <div className="w-16 h-16">
+                  <div className="md:flex  bg-gray-100 mt-3 p-5 ">
+                    <div className="md:w-16 md:h-16 s:w-[30%] rounded s:mx-auto md:mx-0">
                       <img
-                        className="object-cover w-full h-full"
+                        className="object-cover md:w-full md:h-full"
                         src={Person}
                         alt=""
                       />
                     </div>
-                    <div className=" ml-8 ">
-                      <div className="flex">
+                    <div className=" md:ml-8 s:mt-5 md:-0 ">
+                      <div className="md:flex">
                         <p className="text-[#233965] font-semibold ">
                           Dhanajaysagar145@gmail.com
                         </p>{" "}
-                        <span className="ml-4">10 days ago</span>
+                        <span className="md:ml-4">10 days ago</span>
                       </div>
-                      <p className="mt-2">
+                      <p className="md:mt-2 s:mt-1">
                         I hope this message finds you well. I am writing to
                         kindly request your assistance
                       </p>
-                      <div className="flex  mt-2">
-                        <div className="flex items-center space-x-1 ">
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-gray-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                        </div>
-                        <p className="text-gray-400 font-semibold text-lg ml-10 ">
-                          Reply
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex  mt-8   bg-gray-100  p-5">
-                    <div className="w-16 h-16">
-                      <img
-                        className="object-cover w-full h-full"
-                        src={Person}
-                        alt=""
-                      />
-                    </div>
-                    <div className=" ml-8 ">
-                      <div className="flex">
-                        <p className="text-[#233965] font-semibold ">
-                          Dhanajaysagar145@gmail.com
-                        </p>{" "}
-                        <span className="ml-4">10 days ago</span>
-                      </div>
-                      <p className="mt-2">
-                        I hope this message finds you well. I am writing to
-                        kindly request your assistance
-                      </p>
-                      <div className="flex  mt-2">
-                        <div className="flex items-center space-x-1 ">
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-gray-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                        </div>
-                        <p className="text-gray-400 font-semibold text-lg ml-10 ">
-                          Reply
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex  mt-8   bg-gray-100  p-5">
-                    <div className="w-16 h-16">
-                      <img
-                        className="object-cover w-full h-full"
-                        src={Person}
-                        alt=""
-                      />
-                    </div>
-                    <div className=" ml-8 ">
-                      <div className="flex">
-                        <p className="text-[#233965] font-semibold ">
-                          Dhanajaysagar145@gmail.com
-                        </p>{" "}
-                        <span className="ml-4">10 days ago</span>
-                      </div>
-                      <p className="mt-2">
-                        I hope this message finds you well. I am writing to
-                        kindly request your assistance
-                      </p>
-                      <div className="flex  mt-2">
-                        <div className="flex items-center space-x-1 ">
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-gray-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                        </div>
-                        <p className="text-gray-400 font-semibold text-lg ml-10 ">
-                          Reply
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex  mt-8   bg-gray-100  p-5">
-                    <div className="w-16 h-16">
-                      <img
-                        className="object-cover w-full h-full"
-                        src={Person}
-                        alt=""
-                      />
-                    </div>
-                    <div className=" ml-8 ">
-                      <div className="flex">
-                        <p className="text-[#233965] font-semibold ">
-                          Dhanajaysagar145@gmail.com
-                        </p>{" "}
-                        <span className="ml-4">10 days ago</span>
-                      </div>
-                      <p className="mt-2">
-                        I hope this message finds you well. I am writing to
-                        kindly request your assistance
-                      </p>
-                      <div className="flex  mt-2">
-                        <div className="flex items-center space-x-1 ">
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-gray-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                        </div>
-                        <p className="text-gray-400 font-semibold text-lg ml-10 ">
-                          Reply
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex  mt-8   bg-gray-100  p-5">
-                    <div className="w-16 h-16">
-                      <img
-                        className="object-cover w-full h-full"
-                        src={Person}
-                        alt=""
-                      />
-                    </div>
-                    <div className=" ml-8 ">
-                      <div className="flex">
-                        <p className="text-[#233965] font-semibold ">
-                          Dhanajaysagar145@gmail.com
-                        </p>{" "}
-                        <span className="ml-4">10 days ago</span>
-                      </div>
-                      <p className="mt-2">
-                        I hope this message finds you well. I am writing to
-                        kindly request your assistance
-                      </p>
-                      <div className="flex  mt-2">
-                        <div className="flex items-center space-x-1 ">
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-gray-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                        </div>
-                        <p className="text-gray-400 font-semibold text-lg ml-10 ">
-                          Reply
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex  mt-8   bg-gray-100  p-5">
-                    <div className="w-16 h-16">
-                      <img
-                        className="object-cover w-full h-full"
-                        src={Person}
-                        alt=""
-                      />
-                    </div>
-                    <div className=" ml-8 ">
-                      <div className="flex">
-                        <p className="text-[#233965] font-semibold ">
-                          Dhanajaysagar145@gmail.com
-                        </p>{" "}
-                        <span className="ml-4">10 days ago</span>
-                      </div>
-                      <p className="mt-2">
-                        I hope this message finds you well. I am writing to
-                        kindly request your assistance
-                      </p>
-                      <div className="flex  mt-2">
-                        <div className="flex items-center space-x-1 ">
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-yellow-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                          <svg
-                            className="md:w-4 md:h-4 lg:w-5 lg:h-5 xl2:w-7 xl2:h-7  s:w-5 s:h-5 text-gray-300"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 22 20"
-                          >
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                          </svg>
-                        </div>
-                        <p className="text-gray-400 font-semibold text-lg ml-10 ">
-                          Reply
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
 
               <form action="">
-                <div className="p-14">
+                <div className="md:p-14 s:p-5 w-[100%]">
                   <div class="flex">
                     <input
                       type="search"
                       id="search-dropdown"
-                      className=" p-2.5 w-[400px]  text-sm text-gray-900 bg-gray-50  rounded-sm border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
+                      className=" md:p-2.5 s:p-2 md:w-[40%]  s:w-[100%]  text-sm text-gray-900 bg-gray-50  rounded-sm border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
                       placeholder="Search"
                     />
-                    <button className="p-2.5 h-full w-[150px] text-sm font-medium text-white bg-blue-700 rounded-sm border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <button className="md:p-2.5 s:p-2 h-full md:w-[15%]  text-sm font-medium text-white bg-blue-700 rounded-sm border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Submit
                     </button>
                   </div>
@@ -989,18 +472,18 @@ export default function VendorMonoSI() {
         </div>
       </div>
 
-      <div className="bg-gray-200 w-full h-auto p-10 -mb-10">
-        <div className="flex justify-between">
-          <form>
+      <div className="Footer-Section bg-gray-200 w-full h-auto p-10 -mb-10">
+        <div className="flex s:flex-col md:flex-row s:space-y-8 md:space-y-0 justify-between">
+          <form className="md:w-[90%] s:w-full">
             <div className="relative">
               <input
                 type="text"
-                className="pl-10 pr-4 py-2 border rounded-sm w-[400px]"
+                className="pl-10 pr-4 py-2 border rounded-sm md:w-[50%] s:w-[100%]"
                 placeholder="Enter your email"
               />
               <div
-                className="absolute inset-y-0 left-0 pl-3  
-                    flex items-center  
+                className="absolute inset-y-0 left-0 pl-3
+                    flex items-center
                     pointer-events-none"
               >
                 <i className="fas fa-envelope text-gray-400"></i>
@@ -1009,24 +492,23 @@ export default function VendorMonoSI() {
             <div className="relative mt-5">
               <input
                 type="text"
-                className="pl-10 pr-4 py-2 border rounded-sm w-[400px]"
+                className="pl-10 pr-4 py-2 border rounded-sm md:w-[50%] s:w-[100%]"
                 placeholder="Enter Password"
               />
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                 <i className="fas fa-envelope text-gray-400"></i>
               </div>
-              <div className="absolute inset-y-0 left-0 ml-[350px] flex items-center pointer-events-none">
+              <div className="absolute inset-y-0 left-0 md:ml-[43%] s:ml-[85%] flex items-center cursor-pointer">
                 <i className="fa-solid fa-eye-slash text-gray-400"></i>
               </div>
             </div>
-
             <div className="">
-              <button className="bg-[#23568845] p-2 text-black font-semibold mt-5 w-[400px]">
+              <button className="bg-[#23568845] p-2 text-black font-semibold mt-5 md:w-[50%] s:w-[100%]">
                 Log In
               </button>
             </div>
           </form>
-          <div className="image-section flex space-y-2 mr-20 space-x-20">
+          <div className="image-section flex space-y-2 lg:mr-20 s:mr-10 lg:space-x-20 md:space-x-7 s:space-x-6 md:w-[60%] s:w-[100%]">
             <div className="text-center">
               <img src={nav7} alt="" className="w-[100px] mx-auto" />
               <p className="mt-4 text-[14px]">
@@ -1039,9 +521,17 @@ export default function VendorMonoSI() {
               <p className="text-[#235688] text-[14px]">Smart City Indore</p>
             </div>
             <div className="space-y-10">
-              <img src={nav2} alt="" className="w-[100px]" />
-              <img src={nav6} alt="" className="w-[100px]" />
-              <img src={nav3} alt="" className="w-[130px]" />
+              <img src={nav2} alt="" className="md:w-[100px] s:w-[150px]" />
+              <img
+                src={nav6}
+                alt=""
+                className="md:w-[100px] md:h-auto s:w-[200px] s:h-[25px]"
+              />
+              <img
+                src={nav3}
+                alt=""
+                className="md:w-[100px] md:h-[20px] s:w-[220px] s:h-[25px]"
+              />
             </div>
           </div>
         </div>
